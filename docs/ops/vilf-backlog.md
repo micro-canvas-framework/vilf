@@ -301,7 +301,8 @@ Acceptance Criteria:
 ---
 
 BL-05A — Public Docs Skeleton: Chapter Placeholders  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 755c7c7  
 Scope:  
 - Create placeholder chapter pages under /docs that reflect VILF structure  
 - Add them to sidebars (public)  
@@ -313,7 +314,8 @@ Acceptance Criteria:
 ---
 
 BL-05B — Public Docs Skeleton: Annex Placeholders  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): cd5d75a  
 Scope:  
 - Create placeholder annex index page and annex list (01–15)  
 - Add to sidebars (public)  
@@ -325,7 +327,8 @@ Acceptance Criteria:
 ---
 
 BL-05C — Homepage/Intro Alignment  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 48d61b4  
 Scope:  
 - Ensure intro + roadmap link to the new skeleton pages  
 Acceptance Criteria:  
