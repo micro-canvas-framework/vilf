@@ -61,7 +61,9 @@ Acceptance Criteria:
 ---
 
 BL-02H — Repo Hygiene: Ignore Build Artifacts & Local State  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 7dc6337  
+Notes: .gitignore updated to exclude local artifacts.  
 Scope:  
 - Ensure build artifacts and local state are not tracked by git  
 - Add/extend .gitignore for Docusaurus/Node artifacts  
