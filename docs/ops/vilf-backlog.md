@@ -71,6 +71,19 @@ Acceptance Criteria:
 
 ---
 
+BL-02C — Cleanup: Remove Redundant Ops Script (BL-02B Artifact)  
+Status: PLANNED  
+Scope:  
+- Remove ops/scripts/flatten-docs.ps1 if present  
+- Ensure no remaining references to the cancelled BL-02B implementation path  
+
+Acceptance Criteria:  
+- ops/scripts/flatten-docs.ps1 removed from repo  
+- Repo builds unchanged (npm run build still succeeds)  
+- Backlog item closed with commit evidence  
+
+---
+
 BL-02G — Governance: Track Governance Changes in AGENTS + Backlog  
 Status: DONE  
 Evidence (Commit ID): 4f02a4b  
