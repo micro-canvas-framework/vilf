@@ -22,9 +22,14 @@ Workflow and quality gates are defined in `/AGENTS.md`.
 ---
 
 ## Phase 1 — Repo Governance and Planning
-### BL-01 — Create AGENTS.md (Governance Contract)
-**Status:** DONE  
-**Notes:** Created and locked by human copy/paste. The file is authoritative.
+### BL-01 — Repository + Governance Setup  
+Status: DONE  
+Evidence (Commit ID): 2859f43  
+Notes:  
+- Repository initialized and verified as single source of truth  
+- AGENTS.md governance contract added and validated  
+- Canonical master drafts, annexes, backlog, and reference PDF committed  
+- No Docusaurus, build artifacts, or stray assets present  
 
 ### BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)
 **Status:** TODO  
