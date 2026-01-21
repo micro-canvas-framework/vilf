@@ -147,8 +147,44 @@ Acceptance Criteria:
 
 ---
 
+BL-03A - Site Identity: Docusaurus Config (VILF)  
+Status: DONE  
+Evidence (Commit ID): fb3e1ea  
+Notes: Site identity and navbar title set.  
+
+---
+
+BL-03B - Styling Baseline (custom.css)  
+Status: DONE  
+Evidence (Commit ID): 3a79849  
+Notes: Doulab palette and baseline styles applied.  
+
+---
+
+BL-03C - Remove Blog (Disable preset + delete content)  
+Status: DONE  
+Evidence (Commit ID): 7966f18  
+Notes: Blog disabled and content removed.  
+
+---
+
+BL-03D - Homepage Layout (VIF-style)  
+Status: DONE  
+Evidence (Commit ID): 4b4ed3c  
+Notes: VIF-style homepage layout applied.  
+
+---
+
+BL-03G — Versioning Rule + Version Set  
+Status: DONE  
+Evidence (Commit IDs): 5e9e4bb, 174de63  
+Notes: Versioning rule added; package.json name set to vilf and version set to 0.3.0.  
+
+---
 BL-03E — Remove Default Docusaurus Tutorial Content (Avoid /blog Broken Links)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 8555d7d  
+Notes: Default tutorial content removed; /blog references eliminated; build passes.  
 Scope:  
 - Remove default docs/pages that reference /blog (intro/tutorials/markdown-page)  
 - Remove /blog links from footer/navbar config  
@@ -159,7 +195,9 @@ Acceptance Criteria:
 ---
 
 BL-03H — Governance: Build Must Pass Before Any Commit  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 48db8a7  
+Notes: Build gate before commit rule added to AGENTS.md.  
 Scope:  
 - Add a governance rule requiring npm run build to pass before every commit  
 - Track rule via backlog + AGENTS.md  
@@ -170,7 +208,9 @@ Acceptance Criteria:
 ---
 
 BL-03I — Root README.md (VILF)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 080e71a  
+Notes: Root README added for VILF repository structure.  
 Scope:  
 - Add a root README.md explaining what this repo is and how it is structured  
 Acceptance Criteria:  
@@ -297,3 +337,4 @@ Acceptance Criteria:
 
 ## Next Execution Task
 **BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)**
+
