@@ -31,8 +31,12 @@ Notes:
 - Canonical master drafts, annexes, backlog, and reference PDF committed  
 - No Docusaurus, build artifacts, or stray assets present  
 
-BL-02 — Docusaurus Base Setup (Infrastructure Only)  
-Status: PLANNED  
+BL-02 - Docusaurus Base Setup (Infrastructure Only)  
+Status: DONE  
+Evidence (Commit IDs): 7d116d5, d0c31cb  
+Notes:  
+- Docusaurus scaffold created (infra-only; no VILF content migrated)  
+- Docusaurus now runs from repo root; build succeeds  
 Scope:  
 - Initialize Docusaurus project structure  
 - Configure repository for Docusaurus without content migration  
