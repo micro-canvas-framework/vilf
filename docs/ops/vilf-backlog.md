@@ -45,6 +45,28 @@ Acceptance Criteria:
 
 ---
 
+BL-02A - Docusaurus Root Restructure & Manuscript Isolation  
+Status: DONE  
+Evidence (Commit IDs): 29b1b03, d0c31cb, b60f453  
+Notes:  
+- Docusaurus runs from repo root  
+- /site removed  
+- Canonical manuscript isolated under /manuscript  
+- Local build successful; no content migration performed  
+Scope:  
+- Move Docusaurus installation from /site to repository root  
+- Remove /site directory entirely  
+- Relocate VILF master drafts and annexes into a non-rendered folder (/manuscript)  
+- Preserve Docusaurus-first, chapters-later constraint  
+
+Acceptance Criteria:  
+- Docusaurus runs from repo root (npm install / npm run build succeed)  
+- No VILF framework content rendered or published  
+- Canonical manuscript isolated from Docusaurus rendering  
+- Backlog item closed with commit evidence  
+
+---
+
 BL-02B — Fix Docs Nesting After Root Move (docs/docs → docs)  
 Status: CANCELLED  
 Evidence (Commit ID): 9ccca0b  
