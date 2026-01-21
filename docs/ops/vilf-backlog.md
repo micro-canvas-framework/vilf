@@ -274,7 +274,8 @@ Acceptance Criteria:
 ---
 
 BL-04D — Privacy: Remove Ops Visibility from Public Navigation  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): a5a2a72  
 Scope:  
 - Remove any navbar/footer/sidebar links to /docs/ops  
 - Replace with a public roadmap/status page under /docs  
