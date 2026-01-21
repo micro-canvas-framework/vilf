@@ -185,6 +185,16 @@ Rules:
 
 This rule applies retroactively to all future backlog updates.
 
+## Build Gate Before Commit (Mandatory)
+
+Before **any commit** is created, the working tree must pass a local build gate:
+
+- Run: `npm run build`
+- If the build fails (including broken links), **do not commit**.
+- Fix the issue first, then re-run the gate until it passes.
+
+This rule is mandatory to prevent broken commits from entering the history and to keep backlog evidence reliable.
+
 ---
 
 ## 10. Non-Goals
