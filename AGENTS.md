@@ -165,6 +165,14 @@ All chapter files must be:
 
 Canon changes require explicit approval and documentation in release notes.
 
+## Governance Change Control (Mandatory)
+
+Any change to governance rules, contracts, or operating constraints must be:
+1) Codified in **AGENTS.md** (as the authoritative governance contract), and
+2) Tracked in the backlog as a dedicated item (define → execute → close), including the commit ID(s) as evidence when marked DONE.
+
+Governance changes are not valid unless both conditions are satisfied.
+
 ## Backlog Closure Rule (Mandatory)
 
 When any backlog item (e.g. BL-XX) is marked as **DONE**, the closure **must include the Git commit ID(s)** that implement the work.
