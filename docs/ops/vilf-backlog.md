@@ -300,7 +300,41 @@ Acceptance Criteria:
 
 ---
 
-BL-06 — GitHub Repository Configuration  
+BL-05A — Public Docs Skeleton: Chapter Placeholders  
+Status: PLANNED  
+Scope:  
+- Create placeholder chapter pages under /docs that reflect VILF structure  
+- Add them to sidebars (public)  
+Acceptance Criteria:  
+- Chapters appear in sidebar  
+- No manuscript content copied yet  
+- npm run build succeeds  
+
+---
+
+BL-05B — Public Docs Skeleton: Annex Placeholders  
+Status: PLANNED  
+Scope:  
+- Create placeholder annex index page and annex list (01–15)  
+- Add to sidebars (public)  
+Acceptance Criteria:  
+- Annex pages appear in sidebar  
+- No annex text copied yet  
+- npm run build succeeds  
+
+---
+
+BL-05C — Homepage/Intro Alignment  
+Status: PLANNED  
+Scope:  
+- Ensure intro + roadmap link to the new skeleton pages  
+Acceptance Criteria:  
+- No dead links  
+- npm run build succeeds  
+
+---
+
+BL-06 - GitHub Repository Configuration  
 Status: PLANNED  
 Scope:  
 - Configure repo metadata (description, topics)  
