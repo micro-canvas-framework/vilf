@@ -390,6 +390,20 @@ Acceptance Criteria:
 ---
 
 BL-06C — Migrate Annex 01 (Manuscript → MDX)  
+BL-06D — Migrate Annex 02 (ToR — Hubs Tier-1) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/02.mdx by migrating Annex 02 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/02.mdx  
+- Sidebar continues to work (same doc id)  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): b923048  
 Scope:  
