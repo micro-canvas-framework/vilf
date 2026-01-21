@@ -11,14 +11,14 @@ foundation and navigation/styling parity gates are complete.
 
 ## Start here
 
-- **Project Backlog (authoritative):** [/docs/ops/vilf-backlog](/docs/ops/vilf-backlog)
+- **Roadmap:** [/docs/roadmap](/docs/roadmap)
 
 ## What to expect next
 
-1. Navigation + sitemap stabilization (current)
+1. Navigation + sitemap stabilization
 2. Styling parity expansion (VIF + Doulab baseline)
 3. Chapter migration into `/docs` (MDX) with governance gates
 
 ## Build integrity
 
-Broken links are treated as build errors. This keeps commits clean and the operational backlog trustworthy.
+Broken links are treated as build errors. This keeps commits clean and the public documentation trustworthy.

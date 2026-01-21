@@ -74,12 +74,6 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          type: 'doc',
-          docId: 'ops/vilf-backlog',
-          position: 'left',
-          label: 'Ops',
-        },
-        {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
@@ -95,10 +89,6 @@ const config: Config = {
             {
               label: 'Introduction',
               to: '/docs/intro',
-            },
-            {
-              label: 'Ops Backlog',
-              to: '/docs/ops/vilf-backlog',
             },
           ],
         },
