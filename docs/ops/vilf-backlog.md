@@ -46,7 +46,9 @@ Acceptance Criteria:
 ---
 
 BL-02B — Fix Docs Nesting After Root Move (docs/docs → docs)  
-Status: PLANNED  
+Status: CANCELLED  
+Evidence (Commit ID): 9ccca0b  
+Notes: docs/docs nesting not present in current repo state; no action required; item cancelled to avoid redundant work.  
 Scope:  
 - Flatten Docusaurus docs from docs/docs/* into docs/*  
 - Preserve docs/ops intact  
