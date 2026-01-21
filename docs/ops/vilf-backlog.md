@@ -72,7 +72,9 @@ Acceptance Criteria:
 ---
 
 BL-02C — Cleanup: Remove Redundant Ops Script (BL-02B Artifact)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 6810541  
+Notes: Removed redundant ops script; build unchanged.  
 Scope:  
 - Remove ops/scripts/flatten-docs.ps1 if present  
 - Ensure no remaining references to the cancelled BL-02B implementation path  
