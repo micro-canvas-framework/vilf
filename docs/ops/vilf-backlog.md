@@ -234,7 +234,43 @@ Acceptance Criteria:
 
 ---
 
-BL-05 — Sitemap & Navigation Configuration  
+BL-04A — Navigation & Sitemap Baseline (VIF-style)  
+Status: PLANNED  
+Scope:  
+- Align navbar + footer to a minimal, non-broken sitemap  
+- Ensure Docs entry points are stable (/docs/intro, Ops)  
+Acceptance Criteria:  
+- Navbar: Docs, Ops, (optional) GitHub  
+- Footer: no dead links (no /blog, no scaffold links)  
+- npm run build succeeds with onBrokenLinks=throw  
+
+---
+
+BL-04B — Docs UX Baseline  
+Status: PLANNED  
+Scope:  
+- Refine docs/intro.md to be the stable landing page  
+- Ensure ops backlog remains accessible and correctly categorized in sidebars  
+Acceptance Criteria:  
+- /docs/intro renders cleanly  
+- Sidebar shows Introduction + Ops/backlog  
+- npm run build succeeds  
+
+---
+
+BL-04C — Branding Baseline (VILF)  
+Status: PLANNED  
+Scope:  
+- Replace default Docusaurus logo/favicon/social assets with VILF placeholders  
+- Ensure metadata (title, image) is consistent  
+Acceptance Criteria:  
+- No default Docusaurus logo in navbar  
+- Favicon present (placeholder OK)  
+- npm run build succeeds  
+
+---
+
+BL-05 - Sitemap & Navigation Configuration  
 Status: PLANNED  
 Scope:  
 - Define top-level sitemap and navigation  
