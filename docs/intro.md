@@ -6,19 +6,19 @@ slug: /intro
 
 # Vigía Innovation Lab Framework (VILF)
 
-This site is being built in phases.
+This site is being built in controlled phases. The chapter content will be migrated from **/manuscript** into MDX only after the Docusaurus
+foundation and navigation/styling parity gates are complete.
 
-For now, the canonical operational view is the project backlog:
+## Start here
 
-- **Project Backlog:** [/docs/ops/vilf-backlog](/docs/ops/vilf-backlog)
+- **Project Backlog (authoritative):** [/docs/ops/vilf-backlog](/docs/ops/vilf-backlog)
 
 ## What to expect next
 
-1. Styling parity (VIF + Doulab palette) stabilization
-2. Navigation + sitemap alignment
-3. Chapter migration from `/manuscript` into MDX under `/docs`
+1. Navigation + sitemap stabilization (current)
+2. Styling parity expansion (VIF + Doulab baseline)
+3. Chapter migration into `/docs` (MDX) with governance gates
 
-## Notes
+## Build integrity
 
-- Chapter content is intentionally not published yet.
-- Build gates remain strict: broken links are treated as errors.
+Broken links are treated as build errors. This keeps commits clean and the operational backlog trustworthy.
