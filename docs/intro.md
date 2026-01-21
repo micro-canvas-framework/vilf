@@ -12,12 +12,14 @@ foundation and navigation/styling parity gates are complete.
 ## Start here
 
 - **Roadmap:** [/docs/roadmap](/docs/roadmap)
+- **Chapters (skeleton):** [/docs/chapters](/docs/chapters)
+- **Annexes (skeleton):** [/docs/annexes](/docs/annexes)
 
 ## What to expect next
 
-1. Navigation + sitemap stabilization
-2. Styling parity expansion (VIF + Doulab baseline)
-3. Chapter migration into `/docs` (MDX) with governance gates
+1. Publish a stable public documentation skeleton (current)
+2. Migrate chapters and annexes from `/manuscript` into MDX
+3. Deploy (Cloudflare Pages) after pre-Docusaurus gates
 
 ## Build integrity
 
