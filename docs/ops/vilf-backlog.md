@@ -147,7 +147,40 @@ Acceptance Criteria:
 
 ---
 
-BL-04 — Landing Page Construction (VILF)  
+BL-03E — Remove Default Docusaurus Tutorial Content (Avoid /blog Broken Links)  
+Status: PLANNED  
+Scope:  
+- Remove default docs/pages that reference /blog (intro/tutorials/markdown-page)  
+- Remove /blog links from footer/navbar config  
+Acceptance Criteria:  
+- npm run build succeeds with onBrokenLinks=throw  
+- No references to /blog remain  
+
+---
+
+BL-03H — Governance: Build Must Pass Before Any Commit  
+Status: PLANNED  
+Scope:  
+- Add a governance rule requiring npm run build to pass before every commit  
+- Track rule via backlog + AGENTS.md  
+Acceptance Criteria:  
+- AGENTS.md updated with explicit rule  
+- Backlog item closed with commit evidence  
+
+---
+
+BL-03I — Root README.md (VILF)  
+Status: PLANNED  
+Scope:  
+- Add a root README.md explaining what this repo is and how it is structured  
+Acceptance Criteria:  
+- README.md present at repo root  
+- Reflects VILF (not VIF) and current repo structure  
+- Backlog item closed with commit evidence  
+
+---
+
+BL-04 - Landing Page Construction (VILF)  
 Status: PLANNED  
 Scope:  
 - Build full VILF landing page (hero, sections, cards)  
