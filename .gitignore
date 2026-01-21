@@ -1,0 +1,6 @@
+
+# Docusaurus / Node artifacts
+node_modules/
+build/
+.docusaurus/
+
