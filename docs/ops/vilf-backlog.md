@@ -273,6 +273,18 @@ Acceptance Criteria:
 
 ---
 
+BL-04D — Privacy: Remove Ops Visibility from Public Navigation  
+Status: PLANNED  
+Scope:  
+- Remove any navbar/footer/sidebar links to /docs/ops  
+- Replace with a public roadmap/status page under /docs  
+Acceptance Criteria:  
+- No Ops links in navbar/footer/sidebar  
+- Public page exists (e.g., /docs/roadmap) with safe content  
+- npm run build succeeds  
+
+---
+
 BL-05 - Sitemap & Navigation Configuration  
 Status: PLANNED  
 Scope:  
