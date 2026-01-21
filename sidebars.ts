@@ -4,6 +4,7 @@ const sidebars: SidebarsConfig = {
   docs: [
     'intro',
     'roadmap',
+    'migration',
     {
       type: 'category',
       label: 'Chapters',
