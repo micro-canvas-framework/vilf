@@ -235,7 +235,8 @@ Acceptance Criteria:
 ---
 
 BL-04A — Navigation & Sitemap Baseline (VIF-style)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 01a2578  
 Scope:  
 - Align navbar + footer to a minimal, non-broken sitemap  
 - Ensure Docs entry points are stable (/docs/intro, Ops)  
@@ -247,7 +248,8 @@ Acceptance Criteria:
 ---
 
 BL-04B — Docs UX Baseline  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 4a0f1d4  
 Scope:  
 - Refine docs/intro.md to be the stable landing page  
 - Ensure ops backlog remains accessible and correctly categorized in sidebars  
@@ -259,7 +261,8 @@ Acceptance Criteria:
 ---
 
 BL-04C — Branding Baseline (VILF)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 7b43742  
 Scope:  
 - Replace default Docusaurus logo/favicon/social assets with VILF placeholders  
 - Ensure metadata (title, image) is consistent  
