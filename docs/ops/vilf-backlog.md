@@ -45,7 +45,22 @@ Acceptance Criteria:
 
 ---
 
-BL-03 — Styling Parity with VIF  
+BL-02B — Fix Docs Nesting After Root Move (docs/docs → docs)  
+Status: PLANNED  
+Scope:  
+- Flatten Docusaurus docs from docs/docs/* into docs/*  
+- Preserve docs/ops intact  
+- Restore working /docs/intro route so build passes  
+
+Acceptance Criteria:  
+- docs/intro.md exists at docs/intro.md (not docs/docs/intro.md)  
+- docs/docs directory removed (or empty)  
+- npm run build succeeds without broken-link errors  
+- Backlog item closed with commit evidence  
+
+---
+
+BL-03 - Styling Parity with VIF  
 Status: PLANNED  
 Scope:  
 - Apply exact VIF visual language (colors, layout, components)  
