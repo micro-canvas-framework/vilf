@@ -165,6 +165,18 @@ All chapter files must be:
 
 Canon changes require explicit approval and documentation in release notes.
 
+## Backlog Closure Rule (Mandatory)
+
+When any backlog item (e.g. BL-XX) is marked as **DONE**, the closure **must include the Git commit ID(s)** that implement the work.
+
+Rules:
+- A backlog item **cannot** be marked as DONE without at least one commit hash.
+- If multiple commits are involved, **all relevant commit IDs must be listed**.
+- Commit IDs must already exist on the authoritative branch.
+- “DONE” without commit reference is considered **invalid and non-compliant** with governance.
+
+This rule applies retroactively to all future backlog updates.
+
 ---
 
 ## 10. Non-Goals
