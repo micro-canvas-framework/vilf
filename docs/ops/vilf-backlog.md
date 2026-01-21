@@ -67,6 +67,18 @@ Acceptance Criteria:
 
 ---
 
+BL-02G — Governance: Track Governance Changes in AGENTS + Backlog  
+Status: PLANNED  
+Scope:  
+- Require that any governance change is added to AGENTS.md  
+- Require that any governance change is tracked as a backlog item (define → execute → close with commit evidence)  
+
+Acceptance Criteria:  
+- AGENTS.md includes an explicit rule for governance changes (AGENTS + backlog tracking)  
+- Backlog item BL-02G is closed with commit evidence  
+
+---
+
 BL-02B — Fix Docs Nesting After Root Move (docs/docs → docs)  
 Status: CANCELLED  
 Evidence (Commit ID): 9ccca0b  
