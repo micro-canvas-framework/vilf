@@ -31,86 +31,131 @@ Notes:
 - Canonical master drafts, annexes, backlog, and reference PDF committed  
 - No Docusaurus, build artifacts, or stray assets present  
 
-### BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)
-**Status:** TODO  
-**Goal:** Produce a definitive file map that splits VILF into Canon/Core vs Book/Guide vs Annexes and defines the target Docusaurus paths and ordering.  
-**Deliverable:** `docs/ops/vilf-file-map.md`  
-**Acceptance Criteria:**
-- Every chapter (00–15) is listed.
-- Every annex (01–15) is listed.
-- Each item has exactly one classification: `CANON`, `BOOK`, or `ANNEX`.
-- Each item has a proposed Docusaurus target path (e.g., `/docs/core/...`, `/docs/guide/...`, `/docs/annexes/...`).
-- Ordering rules are explicit (reading order + sidebar order).
-- Canon items are explicitly marked as protected (per AGENTS.md).
-- No prose is rewritten in this task.
+BL-02 — Docusaurus Base Setup (Infrastructure Only)  
+Status: PLANNED  
+Scope:  
+- Initialize Docusaurus project structure  
+- Configure repository for Docusaurus without content migration  
+- No chapter files, no MDX generation  
 
-### BL-03 — Define Docusaurus Migration Plan (VIF-Style)
-**Status:** TODO  
-**Goal:** Specify the exact migration sequence and gates: setup first (styling + landing + Cloudflare), then chapter/annex file generation.  
-**Deliverable:** `docs/ops/vilf-docusaurus-plan.md`  
-**Acceptance Criteria:**
-- Plan explicitly states: Docusaurus setup is completed before producing chapter files.
-- Plan explicitly states: Mermaid diagrams go inside `:::info` admonitions.
-- Plan includes: repo + GitHub + Cloudflare Pages steps and gates.
-- Plan includes: sitemap and sidebar approach aligned with VIF.
+Acceptance Criteria:  
+- Docusaurus builds successfully locally  
+- No framework content imported  
+- Structure mirrors VIF baseline  
 
 ---
 
-## Phase 2 — Docusaurus Setup (Must precede content file generation)
-### BL-04 — Initialize Docusaurus Site Skeleton
-**Status:** TODO  
-**Acceptance Criteria:**
-- Docusaurus project created and boots locally.
-- Mermaid support is enabled per project conventions.
-- Docs routing works.
+BL-03 — Styling Parity with VIF  
+Status: PLANNED  
+Scope:  
+- Apply exact VIF visual language (colors, layout, components)  
+- Configure hero, cards, and section components  
+- No content rendering beyond placeholders  
 
-### BL-05 — Port VIF Styling (Exact Match)
-**Status:** TODO  
-**Blocked On:** Access to VIF CSS and landing implementation assets if not already present in this repo.  
-**Acceptance Criteria:**
-- Styling matches VIF exactly (tokens, components, typography, spacing).
-- No regressions in build.
-
-### BL-06 — Build Landing Page and Site Structure (VIF Sitemap Pattern)
-**Status:** TODO  
-**Acceptance Criteria:**
-- Landing includes hero + cards + sections consistent with VIF pattern.
-- Sitemap and navigation are implemented.
-- Sidebars are ready to receive docs but docs are not yet migrated.
-
-### BL-07 — GitHub Repo Hygiene + Cloudflare Pages Integration
-**Status:** TODO  
-**Acceptance Criteria:**
-- Repo structure is clean and documented.
-- Cloudflare Pages configured and deploying main branch successfully.
-- Build gates and logs are reproducible.
+Acceptance Criteria:  
+- Visual parity with VIF confirmed  
+- Styling assets isolated and reusable  
+- No deviation from VIF component structure  
 
 ---
 
-## Phase 3 — Content Migration (After Phase 2 complete)
-### BL-08 — Generate Docusaurus-Ready Chapter Files (Book)
-**Status:** TODO  
-**Acceptance Criteria:**
-- Each chapter is a separate file with correct front matter.
-- Ordering is correct and consistent with file map.
-- Mermaid diagrams are in `:::info` admonitions.
-- Content is strictly the locked text (no drift).
+BL-04 — Landing Page Construction (VILF)  
+Status: PLANNED  
+Scope:  
+- Build full VILF landing page (hero, sections, cards)  
+- Use placeholder copy where necessary  
+- No chapter-level navigation  
 
-### BL-09 — Generate Docusaurus-Ready Canon/Core Files
-**Status:** TODO  
-**Acceptance Criteria:**
-- Canon artifacts placed in `/docs/core/...` with explicit protection markers.
-- No Canon changes without approval and versioning.
-
-### BL-10 — Generate Docusaurus-Ready Annex Files
-**Status:** TODO  
-**Acceptance Criteria:**
-- Annexes are split into separate files with correct front matter.
-- Any “Requires Authorization” constraints are preserved verbatim.
+Acceptance Criteria:  
+- Landing page matches VIF sitemap logic  
+- No broken links or empty sections  
+- Page renders cleanly on build  
 
 ---
 
-## Phase 4 — Final Gates
+BL-05 — Sitemap & Navigation Configuration  
+Status: PLANNED  
+Scope:  
+- Define top-level sitemap and navigation  
+- Align navigation model with VIF  
+- Exclude chapter pages  
+
+Acceptance Criteria:  
+- Navigation structure finalized and documented  
+- No orphan routes  
+- Sitemap stable across builds  
+
+---
+
+BL-06 — GitHub Repository Configuration  
+Status: PLANNED  
+Scope:  
+- Configure repo metadata (description, topics)  
+- Validate branch protections if applicable  
+- Confirm governance alignment  
+
+Acceptance Criteria:  
+- Repo ready for public-facing framework distribution  
+- Governance files untouched  
+- No CI/CD content migration yet  
+
+---
+
+BL-07 — Cloudflare Pages Configuration  
+Status: PLANNED  
+Scope:  
+- Configure Cloudflare Pages deployment  
+- Bind to correct branch and build command  
+- Ensure environment parity with VIF  
+
+Acceptance Criteria:  
+- Successful Cloudflare build & deploy  
+- Public preview URL available  
+- No private or draft content exposed  
+
+---
+
+BL-08 — Docusaurus Readiness Audit  
+Status: PLANNED  
+Scope:  
+- Validate readiness for chapter import  
+- Check AGENTS.md compliance  
+- Confirm diagram, citation, and MDX constraints  
+
+Acceptance Criteria:  
+- Explicit “ready for content migration” confirmation  
+- No structural blockers identified  
+- Audit notes recorded  
+
+---
+
+BL-09 — Chapter Migration Plan (Design Only)  
+Status: PLANNED  
+Scope:  
+- Define chapter-to-MDX mapping  
+- Define front-matter schema  
+- Define diagram conversion rules  
+
+Acceptance Criteria:  
+- Written migration plan approved  
+- No chapter files generated  
+- No content modified  
+
+---
+
+BL-10 — Phase Gate: Pre-Migration Closeout  
+Status: PLANNED  
+Scope:  
+- Final verification of BL-02 → BL-09  
+- Governance, backlog, and infra consistency check  
+- Prepare batch push  
+
+Acceptance Criteria:  
+- All prior backlog items satisfied  
+- All local commits accounted for  
+- Explicit approval to push accumulated commits  
+
+## Phase 4 - Final Gates
 ### BL-11 — Pre-Release Verification
 **Status:** TODO  
 **Acceptance Criteria:**
