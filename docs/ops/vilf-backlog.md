@@ -351,7 +351,43 @@ Acceptance Criteria:
 
 ---
 
-BL-07 — Cloudflare Pages Configuration  
+BL-06A — Migration Conventions + Index Page  
+Status: PLANNED  
+Scope:  
+- Create a public “Migration Notes / Index” page under /docs explaining rules of migration (no rewriting)  
+- Define front-matter conventions for migrated chapters/annexes  
+Acceptance Criteria:  
+- Page exists under docs/migration.md (public)  
+- Conventions documented briefly (no ops links)  
+- npm run build succeeds  
+
+---
+
+BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/chapters/01.mdx by migrating Chapter 01 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+Acceptance Criteria:  
+- Content present in docs/chapters/01.mdx  
+- Sidebar continues to work (same doc id)  
+- No broken links; npm run build succeeds  
+
+---
+
+BL-06C — Migrate Annex 01 (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/01.mdx by migrating Annex 01 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+Acceptance Criteria:  
+- Content present in docs/annexes/01.mdx  
+- Sidebar continues to work (same doc id)  
+- No broken links; npm run build succeeds  
+
+---
+
+BL-07 - Cloudflare Pages Configuration  
 Status: PLANNED  
 Scope:  
 - Configure Cloudflare Pages deployment  
