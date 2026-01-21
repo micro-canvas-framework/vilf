@@ -60,6 +60,19 @@ Acceptance Criteria:
 
 ---
 
+BL-02H — Repo Hygiene: Ignore Build Artifacts & Local State  
+Status: PLANNED  
+Scope:  
+- Ensure build artifacts and local state are not tracked by git  
+- Add/extend .gitignore for Docusaurus/Node artifacts  
+
+Acceptance Criteria:  
+- .gitignore ignores: node_modules/, build/, .docusaurus/  
+- git status -sb no longer shows these as untracked after cleanup  
+- Backlog item closed with commit evidence  
+
+---
+
 BL-03 - Styling Parity with VIF  
 Status: PLANNED  
 Scope:  
