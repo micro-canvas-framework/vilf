@@ -390,7 +390,8 @@ Acceptance Criteria:
 ---
 
 BL-06C — Migrate Annex 01 (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): b923048  
 Scope:  
 - Create docs/annexes/01.mdx by migrating Annex 01 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
@@ -476,6 +477,7 @@ Acceptance Criteria:
 
 ## Next Execution Task
 **BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)**
+
 
 
 
