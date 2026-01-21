@@ -11,6 +11,7 @@ const sidebars: SidebarsConfig = {
       collapsible: true,
       items: [
         'chapters/index',
+        'chapters/00',
         'chapters/01',
         'chapters/02',
         'chapters/03',
