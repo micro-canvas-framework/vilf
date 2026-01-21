@@ -365,7 +365,8 @@ Acceptance Criteria:
 
 BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
 BL-06B0 — Migrate Chapter 00 (Executive Summary) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 978c545  
 Scope:  
 - Create docs/chapters/00.mdx by migrating Chapter 00 content from manuscript (Executive Summary + 00a overview)  
 - Preserve wording and headings; adjust only for MDX compliance  
@@ -475,5 +476,6 @@ Acceptance Criteria:
 
 ## Next Execution Task
 **BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)**
+
 
 
