@@ -391,7 +391,8 @@ Acceptance Criteria:
 
 BL-06C — Migrate Annex 01 (Manuscript → MDX)  
 BL-06D — Migrate Annex 02 (ToR — Hubs Tier-1) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 9318f5e  
 Scope:  
 - Create docs/annexes/02.mdx by migrating Annex 02 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
@@ -491,6 +492,7 @@ Acceptance Criteria:
 
 ## Next Execution Task
 **BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)**
+
 
 
 
