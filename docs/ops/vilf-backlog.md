@@ -68,7 +68,9 @@ Acceptance Criteria:
 ---
 
 BL-02G — Governance: Track Governance Changes in AGENTS + Backlog  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 4f02a4b  
+Notes: Governance change control rule codified in AGENTS.md.  
 Scope:  
 - Require that any governance change is added to AGENTS.md  
 - Require that any governance change is tracked as a backlog item (define → execute → close with commit evidence)  
