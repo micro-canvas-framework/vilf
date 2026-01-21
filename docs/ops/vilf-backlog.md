@@ -364,6 +364,19 @@ Acceptance Criteria:
 ---
 
 BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
+BL-06B0 — Migrate Chapter 00 (Executive Summary) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/chapters/00.mdx by migrating Chapter 00 content from manuscript (Executive Summary + 00a overview)  
+- Preserve wording and headings; adjust only for MDX compliance  
+
+Acceptance Criteria:  
+- Content present in docs/chapters/00.mdx  
+- Sidebar includes Chapter 00 before Chapter 01  
+- npm run build succeeds  
+
+---
+
 Status: PLANNED  
 Scope:  
 - Create docs/chapters/01.mdx by migrating Chapter 01 content from manuscript  
