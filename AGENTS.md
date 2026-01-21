@@ -189,6 +189,15 @@ This rule applies retroactively to all future backlog updates.
 
 ## 10. Non-Goals
 
+## Release Versioning Rule (Mandatory)
+
+The Docusaurus site must carry an explicit semantic version in **package.json**.
+
+When a project phase is closed (e.g., BL-02, BL-03, etc.), the site version **must be bumped** in package.json, and the commit ID for that bump must be included as evidence in the phase closeout (backlog DONE entry).
+
+- Versioning uses SemVer (MAJOR.MINOR.PATCH).
+- Default: increment MINOR for a phase closeout unless explicitly justified otherwise.
+
 This repository explicitly does not:
 - invent speculative theories,
 - introduce marketing language,
