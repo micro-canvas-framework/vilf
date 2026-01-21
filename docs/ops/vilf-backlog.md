@@ -138,6 +138,7 @@ Scope:
 - Apply exact VIF visual language (colors, layout, components)  
 - Configure hero, cards, and section components  
 - No content rendering beyond placeholders  
+- Requires: VIF palette (hex), VIF index.tsx, CSS modules/global CSS, component structure, sitemap definition.  
 
 Acceptance Criteria:  
 - Visual parity with VIF confirmed  
