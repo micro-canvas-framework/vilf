@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
             with measurable capability, coordination integrity, and audit-ready execution.
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 18 }}>
-            <Link className="button button--primary button--lg" to="/docs/ops/vilf-backlog">
+            <Link className="button button--primary button--lg" to="/docs/intro">
               View Project Backlog
             </Link>
             <Link className="button button--secondary button--lg" to="/docs/ops/vilf-backlog">

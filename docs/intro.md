@@ -1,47 +1,24 @@
 ---
-sidebar_position: 1
+title: Introduction
+sidebar_label: Introduction
+slug: /intro
 ---
 
-# Tutorial Intro
+# Vigía Innovation Lab Framework (VILF)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This site is being built in phases.
 
-## Getting Started
+For now, the canonical operational view is the project backlog:
 
-Get started by **creating a new site**.
+- **Project Backlog:** [/docs/ops/vilf-backlog](/docs/ops/vilf-backlog)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## What to expect next
 
-### What you'll need
+1. Styling parity (VIF + Doulab palette) stabilization
+2. Navigation + sitemap alignment
+3. Chapter migration from `/manuscript` into MDX under `/docs`
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Notes
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Chapter content is intentionally not published yet.
+- Build gates remain strict: broken links are treated as errors.
