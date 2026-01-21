@@ -1,41 +1,47 @@
-# Website
+# Vigía Innovation Lab Framework (VILF)
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+VILF is a Doulab framework for designing and operating **Innovation Lab Networks** with governance, capability development, and evidence-backed execution integrity.
 
-## Installation
+This repository is the canonical, version-controlled home of the VILF 1.0 documentation and its Docusaurus site.
 
-```bash
-yarn
-```
+---
 
-## Local Development
+## What this repo contains
 
-```bash
-yarn start
-```
+- **Docusaurus site (repo root)** — the public-facing documentation site (pre-chapter-migration phase)
+- **/docs/** — documentation content
+  - **/docs/ops/** — operational governance + backlog (authoritative task tracking)
+- **/manuscript/** — locked master drafts (Markdown-first, pre-Docusaurus chapter migration)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-## Build
+## Current status
 
-```bash
-yarn build
-```
+We are in the **pre-chapter-migration** phase:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. Docusaurus foundation + styling parity gates
+2. Navigation/sitemap alignment
+3. Only then: migrate chapters from `/manuscript` into MDX under `/docs`
 
-## Deployment
+---
 
-Using SSH:
+## Development
 
-```bash
-USE_SSH=true yarn deploy
-```
+Requirements:
 
-Not using SSH:
+- Node.js (LTS recommended)
+- npm
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+Commands:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Install: `npm ci`
+- Build: `npm run build`
+- Dev: `npm run start`
+
+---
+
+## License
+
+Vigía Innovation Lab Framework (VILF) © 2026 by Luis A. Santiago is licensed under **CC BY-NC-ND 4.0**.
+
+No derivatives without authorization.
