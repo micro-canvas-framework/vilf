@@ -528,7 +528,8 @@ Acceptance Criteria:
 ---
 
 BL-06O — Migrate Annex 13 (Innovation Lab Archetype Library) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): c99f5c3  
 Scope:  
 - Create docs/annexes/13.mdx by migrating Annex 13 content from manuscript  
 - Preserve wording and headings; keep archetype sections verbatim  
