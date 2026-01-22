@@ -543,7 +543,8 @@ Acceptance Criteria:
 ---
 
 BL-06P — Migrate Annex 14 (National Deployment Guide) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 31b9212  
 Scope:  
 - Create docs/annexes/14.mdx by migrating Annex 14 content from manuscript  
 - Preserve wording and headings; keep authorization note verbatim  
