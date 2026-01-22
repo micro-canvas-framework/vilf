@@ -660,8 +660,9 @@ Acceptance Criteria:
 Notes: Verbatim manuscript content; placeholder removed earlier.  
 
 BL-07B — Migrate Chapter 03 (System Architecture) to MDX  
-Status: TODO  
-Notes: Create docs/chapters/03.mdx; remove placeholder 03.md; paste verbatim content; build-gated commits; close with commit evidence.  
+Status: DONE  
+Evidence (Commit ID): 6c9b452  
+Notes: Verbatim manuscript content; placeholder removed if present.  
 
 BL-08 — Docusaurus Readiness Audit  
 Status: PLANNED  
