@@ -437,6 +437,20 @@ Acceptance Criteria:
 
 ---
 
+BL-06I — Migrate Annex 07 (Documentation & Evidence Standards) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/07.mdx by migrating Annex 07 content from manuscript  
+- Preserve wording and headings; preserve repository structure block verbatim  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/07.mdx  
+- Code/folder blocks render correctly  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): 25cf9ff  
 Scope:  
