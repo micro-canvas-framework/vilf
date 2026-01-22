@@ -423,7 +423,8 @@ Acceptance Criteria:
 ---
 
 BL-06H — Migrate Annex 06 (MEL Checklists & Scorecards) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 0ee6724  
 Scope:  
 - Create docs/annexes/06.mdx by migrating Annex 06 content from manuscript  
 - Preserve wording and headings; keep checklists and tables verbatim  
