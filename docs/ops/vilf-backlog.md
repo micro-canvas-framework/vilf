@@ -339,7 +339,27 @@ Acceptance Criteria:
 ---
 
 BL-06 - GitHub Repository Configuration  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit IDs):  
+- BL-06A: ad6ab5f  
+- BL-06B: e77cc67  
+- BL-06B0: 27836ba  
+- BL-06C: 22428e7  
+- BL-06D: 68677cd  
+- BL-06E: 87875a5  
+- BL-06F: 7716936  
+- BL-06G: f1e9b68  
+- BL-06H: 6a14784  
+- BL-06I: 8e5ed3f  
+- BL-06J: 1a0f8aa  
+- BL-06K: 6c4e8ff  
+- BL-06L: efdba81  
+- BL-06M: 5b4e46c  
+- BL-06N: 8a3de66  
+- BL-06O: 1716247  
+- BL-06P: 980edbb  
+- BL-06Q: aac60c3  
+Notes: Placeholders removed as part of migration; no history rewrite performed.  
 Scope:  
 - Configure repo metadata (description, topics)  
 - Validate branch protections if applicable  
