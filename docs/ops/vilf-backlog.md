@@ -557,6 +557,20 @@ Acceptance Criteria:
 
 ---
 
+BL-06Q — Migrate Annex 15 (Glossary Expansion) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/15.mdx by migrating Annex 15 content from manuscript  
+- Preserve wording and headings; keep definitions verbatim  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/15.mdx  
+- Markdown renders cleanly  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): 25cf9ff  
 Scope:  
