@@ -700,6 +700,10 @@ Status: DONE
 Evidence (Commit ID): a25e5cb  
 Scope: create docs/chapters/10.mdx (verbatim), remove placeholder 10.md if present, keep sidebar stable.  
 
+BL-07J — Migrate Chapters 11–15 (References → Annexes)  
+Status: TODO  
+Scope: create docs/chapters/11.mdx ... 15.mdx (verbatim), remove placeholders 11.md..15.md if present, keep sidebar stable.  
+
 BL-08 — Docusaurus Readiness Audit  
 Status: PLANNED  
 Scope:  
