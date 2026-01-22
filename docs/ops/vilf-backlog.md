@@ -646,6 +646,17 @@ Acceptance Criteria:
 
 ---
 
+BL-07A — Migrate Chapter 02 (Ecosystem Diagnostic) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/chapters/02.mdx from manuscript Chapter 02 (verbatim)  
+- Remove placeholder docs/chapters/02.md if it exists  
+Acceptance Criteria:  
+- Content present in docs/chapters/02.mdx  
+- No duplicate doc ids  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
 BL-08 — Docusaurus Readiness Audit  
 Status: PLANNED  
 Scope:  
