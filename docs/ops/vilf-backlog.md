@@ -453,7 +453,8 @@ Acceptance Criteria:
 ---
 
 BL-06J — Migrate Annex 08 (Risk & Ethics Protocols — IGF-Aligned) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): a62f80b  
 Scope:  
 - Create docs/annexes/08.mdx by migrating Annex 08 content from manuscript  
 - Preserve wording and headings; keep escalation thresholds table verbatim  
