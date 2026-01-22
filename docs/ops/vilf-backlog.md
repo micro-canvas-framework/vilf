@@ -558,7 +558,8 @@ Acceptance Criteria:
 ---
 
 BL-06Q — Migrate Annex 15 (Glossary Expansion) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): cf4e49f  
 Scope:  
 - Create docs/annexes/15.mdx by migrating Annex 15 content from manuscript  
 - Preserve wording and headings; keep definitions verbatim  
