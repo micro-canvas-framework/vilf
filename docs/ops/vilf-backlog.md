@@ -422,6 +422,20 @@ Acceptance Criteria:
 
 ---
 
+BL-06H — Migrate Annex 06 (MEL Checklists & Scorecards) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/06.mdx by migrating Annex 06 content from manuscript  
+- Preserve wording and headings; keep checklists and tables verbatim  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/06.mdx  
+- Tables render correctly  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): 25cf9ff  
 Scope:  
