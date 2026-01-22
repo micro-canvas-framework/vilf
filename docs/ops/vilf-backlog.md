@@ -691,7 +691,8 @@ Evidence (Commit ID): bf7a0b8
 Scope: create docs/chapters/08.mdx (verbatim), remove placeholder 08.md if present, keep sidebar stable.  
 
 BL-07H — Migrate Chapter 09 (Governance & Legal Toolkit)  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): 5a8cf57  
 Scope: create docs/chapters/09.mdx (verbatim), remove placeholder 09.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
