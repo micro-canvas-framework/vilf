@@ -483,7 +483,8 @@ Acceptance Criteria:
 ---
 
 BL-06L — Migrate Annex 10 (Challenge Fund Governance Pack) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 9765ade  
 Scope:  
 - Create docs/annexes/10.mdx by migrating Annex 10 content from manuscript  
 - Preserve wording and headings; keep tables verbatim  
