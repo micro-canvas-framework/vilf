@@ -497,6 +497,20 @@ Acceptance Criteria:
 
 ---
 
+BL-06M — Migrate Annex 11 (Accreditation Rubric — Lab / Hub / NCU) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/11.mdx by migrating Annex 11 content from manuscript  
+- Preserve wording and headings; keep criteria and outcomes verbatim  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/11.mdx  
+- Markdown renders cleanly  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): 25cf9ff  
 Scope:  
