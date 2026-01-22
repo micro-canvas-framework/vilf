@@ -696,7 +696,8 @@ Evidence (Commit ID): 5a8cf57
 Scope: create docs/chapters/09.mdx (verbatim), remove placeholder 09.md if present, keep sidebar stable.  
 
 BL-07I — Migrate Chapter 10 (Templates & Tools)  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): a25e5cb  
 Scope: create docs/chapters/10.mdx (verbatim), remove placeholder 10.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
