@@ -686,7 +686,8 @@ Evidence (Commit ID): 95603ea
 Scope: create docs/chapters/07.mdx (verbatim), remove placeholder 07.md if present, keep sidebar stable.  
 
 BL-07G — Migrate Chapter 08 (Roadmap & Phasing)  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): bf7a0b8  
 Scope: create docs/chapters/08.mdx (verbatim), remove placeholder 08.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
