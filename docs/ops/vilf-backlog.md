@@ -407,6 +407,20 @@ Acceptance Criteria:
 
 ---
 
+BL-06G — Migrate Annex 05 (Governance Decision Rights Matrix — IGF) (Manuscript → MDX)  
+Status: PLANNED  
+Scope:  
+- Create docs/annexes/05.mdx by migrating Annex 05 content from manuscript  
+- Preserve wording and headings; keep the decision matrix table verbatim  
+
+Acceptance Criteria:  
+- Content present in docs/annexes/05.mdx  
+- Table renders correctly  
+- npm run build succeeds  
+- Closeout includes commit id evidence  
+
+---
+
 Status: DONE  
 Evidence (Commit ID): 25cf9ff  
 Scope:  
