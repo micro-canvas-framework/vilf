@@ -513,7 +513,8 @@ Acceptance Criteria:
 ---
 
 BL-06N — Migrate Annex 12 (Hub Capability Development Playbook) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): d1d0b48  
 Scope:  
 - Create docs/annexes/12.mdx by migrating Annex 12 content from manuscript  
 - Preserve wording and headings; keep lists and module structure verbatim  
