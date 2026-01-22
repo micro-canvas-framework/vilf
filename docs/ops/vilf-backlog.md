@@ -675,6 +675,10 @@ Status: DONE
 Evidence (Commit ID): 40e44a0  
 Scope: create docs/chapters/05.mdx (verbatim), remove placeholder docs/chapters/05.md if present, ensure sidebar stable.  
 
+BL-07E — Migrate Chapter 06 (Benchmarking) to MDX  
+Status: TODO  
+Scope: create docs/chapters/06.mdx (verbatim), remove placeholder docs/chapters/06.md if present, ensure sidebar stable.  
+
 BL-08 — Docusaurus Readiness Audit  
 Status: PLANNED  
 Scope:  
