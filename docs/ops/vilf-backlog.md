@@ -681,7 +681,8 @@ Evidence (Commit ID): 88ddb32
 Scope: create docs/chapters/06.mdx (verbatim), remove placeholder docs/chapters/06.md if present, ensure sidebar stable.  
 
 BL-07F — Migrate Chapter 07 (KPIs & Scorecard — MEL Core System)  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): 95603ea  
 Scope: create docs/chapters/07.mdx (verbatim), remove placeholder 07.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
