@@ -665,9 +665,10 @@ Evidence (Commit ID): 6c9b452
 Notes: Verbatim manuscript content; placeholder removed if present.  
 
 BL-07C — Migrate Chapter 04 (Operating Model) to MDX  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): 4f9ebc1  
 Scope: create docs/chapters/04.mdx (verbatim), remove placeholder docs/chapters/04.md if present, ensure sidebar remains stable, build gate.  
-Notes: Verbatim migration from manuscript. Build gate required before commits.  
+Notes: Verbatim manuscript content; placeholder removed if present.  
 
 BL-08 — Docusaurus Readiness Audit  
 Status: PLANNED  
