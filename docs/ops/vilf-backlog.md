@@ -468,7 +468,8 @@ Acceptance Criteria:
 ---
 
 BL-06K — Migrate Annex 09 (Innovation Project Intake & Prioritization Form) (Manuscript → MDX)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit ID): 9675038  
 Scope:  
 - Create docs/annexes/09.mdx by migrating Annex 09 content from manuscript  
 - Preserve wording and headings; keep form sections verbatim  
