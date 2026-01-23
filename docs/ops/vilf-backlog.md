@@ -639,16 +639,14 @@ Acceptance Criteria:
 ---
 
 BL-07 - Cloudflare Pages Configuration  
-Status: PLANNED  
-Scope:  
-- Configure Cloudflare Pages deployment  
-- Bind to correct branch and build command  
-- Ensure environment parity with VIF  
-
-Acceptance Criteria:  
-- Successful Cloudflare build & deploy  
-- Public preview URL available  
-- No private or draft content exposed  
+Status: DONE  
+Evidence:  
+- Production domain: vilf.doulab.net  
+- Cloudflare Pages project connected to GitHub repo: micro-canvas-framework/vilf  
+- Production deploy commit SHA: TBD  
+- Cloudflare deployment/build URL: TBD  
+Notes:  
+- Cloudflare Pages is configured and serving production at vilf.doulab.net.  
 
 ---
 
@@ -771,7 +769,7 @@ Evidence (Commit ID): da1f8bd
 ### BL-11 - Pre-Release Verification
 **Status:** DONE  
 Evidence (Commit ID): c51cdd5  
-Notes: First push after migration; local build/typecheck passed before push; origin/main updated.  
+Notes: Local gates (typecheck/build) passed prior to push; GitHub push completed (origin/main at d114ec9); Cloudflare deployment is tracked separately (BL-07 / BL-11A).  
 **Acceptance Criteria:**
 - Terminology consistency passes.
 - Cross-references resolve correctly.
@@ -779,7 +777,24 @@ Notes: First push after migration; local build/typecheck passed before push; ori
 - Build and deploy pass.
 - Release artifacts prepared (LICENSE/CHANGELOG/RELEASE as applicable).
 
-### BL-12 — Tag and Publish VILF 1.0
+### BL-11A — Cloudflare Pages Deployment & Smoke Test
+Status: DONE  
+Evidence:
+- Production URL: vilf.doulab.net  
+- Cloudflare deploy commit SHA: TBD  
+- Cloudflare deployment/build URL: TBD  
+
+Smoke test (PASS):
+- /  
+- /docs/intro  
+- /docs/roadmap  
+- /docs/chapters/00  
+- /docs/annexes/01  
+
+Notes:
+- Verified ops is not exposed in public navigation.  
+
+### BL-12 - Tag and Publish VILF 1.0
 **Status:** TODO  
 **Acceptance Criteria:**
 - Version tag created.
