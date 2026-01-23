@@ -1014,7 +1014,7 @@ Notes:
 ---
 ### BL-06S04 — Annex 04 Sync (MISMATCH)
 Status: DONE
-Evidence: d1e1bc3
+Evidence (Commit ID): c38e7c6
 Scope:
 - Re-sync docs/annexes/04.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
@@ -1222,7 +1222,8 @@ Notes:
 - Audit note: Normalized text differs. lenΔ=65. First-diff snippet (canon): "# 14.1 Purpose
 ---
 ### BL-06S15 — Annex 15 Sync (MISMATCH)
-Status: TODO  
+Status: DONE
+Evidence (Commit ID): 29d759f
 Scope:
 - Re-sync docs/annexes/15.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
