@@ -868,7 +868,7 @@ Notes: Local gates (typecheck/build) passed prior to push; GitHub push completed
 ---
 
 BL-02I — Governance: Canonical Source + Terminology Rule (Master 2 + IMM-P®)
-Status: TODO
+Status: DONE
 Scope:
 - Track the newly adopted governance rules (already implemented in code/docs) as a backlog item:
   - Canonical manuscript source for VILF v1.0 chapters is `manuscript/VILF-1.0-master_2.md`
@@ -883,7 +883,7 @@ Acceptance Criteria:
 - npm run build passes
 
 Evidence:
-- Commit(s): TBD
+- Commit(s): ed9a1d0, 9018cbd
 
 Notes:
 - Master 2 is chapters-only; annexes are sourced elsewhere and audited separately (see BL-06R).
