@@ -1,24 +1,56 @@
 ---
+id: migration
 title: Migration Notes
 sidebar_label: Migration Notes
+description: "Rules and conventions used to migrate the VILF 1.0 manuscript into this Docusaurus site."
 ---
 
-# Migration Notes (Public)
+# Migration Notes
 
-This site is migrating VILF 1.0 content from the locked `/manuscript` sources into MDX under `/docs`.
+This page documents the conventions used to migrate the **VILF 1.0** manuscript into MDX pages.
 
-## Migration rules
+## What “migration” means here
 
-- **No rewriting:** migration changes format and structure only.
-- **Headings preserved:** keep the original heading hierarchy unless required for MDX validity.
-- **Mermaid only:** diagrams, when present, are written in Mermaid and placed inside an `info` admonition.
-- **Citations:** Harvard-style citations are preserved as written. New sources are not introduced during migration.
+- We migrated content from the canonical manuscript under `/manuscript` into `/docs`.
+- The goal was **format compliance and navigability**, not rewriting.
+- Changes were limited to:
+  - front-matter and stable doc IDs,
+  - Markdown/MDX syntax fixes,
+  - link/path adjustments to keep builds passing,
+  - removal of placeholder pages once real content was migrated.
 
-## What is being migrated
+## Non-goals
 
-- Chapters from `manuscript/VILF-1.0-master_1.md` and `manuscript/VILF-1.0-master_2.md`
-- Annexes from `manuscript/VILF-1.0-Annexes.md`
+- No editorial rewriting or narrative expansion during the migration phase.
+- No new diagrams added during migration.
+- No new academic citations added during migration.
 
-## Status
+These improvements are tracked separately in post-release backlog items.
 
-The public sidebar will gradually replace placeholder pages with migrated MDX pages as each chapter/annex passes build gates.
+## Doc IDs and paths
+
+- Chapters: `/docs/chapters/NN.mdx` (NN = 00–15)
+- Annexes: `/docs/annexes/NN.mdx` (NN = 01–15)
+
+Doc IDs are treated as stable identifiers. Once a doc ID is published, it should not change.
+
+## Formatting conventions
+
+- Use fenced code blocks for templates, forms, and anything that must remain verbatim.
+- Keep headings and bullet structure aligned with the manuscript unless MDX requires a minimal adjustment.
+- Avoid HTML-like placeholders such as `<FILL>` (they may be parsed as JSX by MDX). Use `TBD` instead.
+
+## Governance and quality gates
+
+All commits must pass the repository gates defined in `/AGENTS.md`, including:
+
+- `npm run typecheck`
+- `npm run build`
+
+## Where to look next
+
+If you are looking for the normative framework content, start at:
+
+- **Introduction** (`/docs/intro`)
+- **Roadmap** (`/docs/roadmap`)
+- **Chapters** (`/docs/chapters/00`)
