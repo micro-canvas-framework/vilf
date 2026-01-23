@@ -975,12 +975,13 @@ Notes:
 - Audit note: Normalized text differs. lenΔ=66. First-diff snippet (canon): "# 01.1 Purpose
 ---
 ### BL-06S02 — Annex 02 Sync (MISMATCH)
-Status: TODO  
+Status: DONE  
 Scope:
 - Re-sync docs/annexes/02.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
 - Keep existing doc id stable (Annex 02).
 - Record any unavoidable MDX normalization in Notes.
+Evidence (Commit ID): 8fa92d2948c1fa5d1b9bd9eeaccf0bfdcaa4db82
 
 Acceptance Criteria:
 - docs/annexes/02.mdx renders cleanly in Docusaurus.
