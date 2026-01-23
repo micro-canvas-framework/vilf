@@ -1,4 +1,10 @@
-# VILF 1.0 — Backlog (Authoritative)
+---
+id: vilf-backlog
+title: VILF Backlog
+unlisted: true
+---
+
+# VILF 1.0 - Backlog (Authoritative)
 **Repository source of truth for project planning and execution.**  
 This backlog governs all work on the Vigía Innovation Lab Framework (VILF) 1.0 repository.  
 Workflow and quality gates are defined in `/AGENTS.md`.
