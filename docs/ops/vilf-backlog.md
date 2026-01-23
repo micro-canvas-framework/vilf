@@ -875,6 +875,13 @@ Evidence: tag v1.0.0 @ ebb166b
 - Release notes updated.
 - Public deployment confirmed.
 
+### BL-13 - Governance: Canonical Source + Terminology Rule
+Status: DONE  
+Evidence (Commit IDs): 9018cbd, ed9a1d0  
+Notes:
+- AGENTS.md codifies canonical manuscript source as manuscript/VILF-1.0-master_2.md.
+- IMM-P® terminology normalized and enforced as canonical spelling.
+
 ---
 
 ## Next Execution Tasks (Pre-Editorial)
