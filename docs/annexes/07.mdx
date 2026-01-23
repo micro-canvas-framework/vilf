@@ -3,7 +3,6 @@ title: Annex 07 — Documentation & Evidence Standards
 sidebar_label: Annex 07 — Evidence Standards
 ---
 
-# Annex 07 — Documentation & Evidence Standards
 
 ## 07.1 Purpose
 This annex defines the standardized documentation and evidence requirements for all VILF-compliant labs, hubs, and the Network Coordination Unit (NCU).  
@@ -20,7 +19,6 @@ All evidence must be:
 ## 07.3 Evidence Repository Structure
 Standard folder hierarchy:
 
-```text
 /evidence
 /00-pre-discovery
 /01-discovery
@@ -34,84 +32,59 @@ Standard folder hierarchy:
 /experiments
 /maturity
 /mel
-07.4 Metadata Requirements
+
+
+## 07.4 Metadata Requirements
 Every file must include a metadata header:
 
-Title
+- Title  
+- Author  
+- Date  
+- IMM-P® Stage  
+- Version  
+- Evidence Type  
+- Related Decision Record(s)  
+- Tags  
 
-Author
-
-Date
-
-IMM-P® Stage
-
-Version
-
-Evidence Type
-
-Related Decision Record(s)
-
-Tags
-
-07.5 Decision Record Format
+## 07.5 Decision Record Format
 All decisions must be logged using the following fields:
 
-Decision title
+- Decision title  
+- Context  
+- Evidence used  
+- Options considered  
+- Final decision  
+- Responsible person  
+- Date  
+- Escalation status  
+- Link(s) to related evidence  
 
-Context
+## 07.6 Prototyping & Experimentation Logs
 
-Evidence used
+### Prototyping Log (Minimum Fields)
+- Prototype version  
+- Objective  
+- Features tested  
+- Feedback received  
+- Iteration notes  
 
-Options considered
+### Experiment Log (Minimum Fields)
+- Hypothesis  
+- Method  
+- User group  
+- Results  
+- Interpretation  
+- Next steps  
 
-Final decision
+## 07.7 Repository Hygiene Rules
+- No duplicate files  
+- No orphan evidence (all files must map to a stage)  
+- No undocumented decisions  
+- No “final_v2_final_really_final” filenames  
+- Version numbering: `v1`, `v1.1`, `v2`, etc.  
+- Annual evidence consolidation required  
 
-Responsible person
-
-Date
-
-Escalation status
-
-Link(s) to related evidence
-
-07.6 Prototyping & Experimentation Logs
-Prototyping Log (Minimum Fields)
-Prototype version
-
-Objective
-
-Features tested
-
-Feedback received
-
-Iteration notes
-
-Experiment Log (Minimum Fields)
-Hypothesis
-
-Method
-
-User group
-
-Results
-
-Interpretation
-
-Next steps
-
-07.7 Repository Hygiene Rules
-No duplicate files
-
-No orphan evidence (all files must map to a stage)
-
-No undocumented decisions
-
-No “final_v2_final_really_final” filenames
-
-Version numbering: v1, v1.1, v2, etc.
-
-Annual evidence consolidation required
-
-07.8 Licensing
+## 07.8 Licensing
 All repository structures and templates are released under CC BY-NC-ND 4.0.
 
+---
