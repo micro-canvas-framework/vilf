@@ -412,7 +412,8 @@ Acceptance Criteria:
 ---
 
 BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
-Status: TODO  
+Status: DONE  
+Evidence (Commit ID): 58ade2b
 Scope:  
 - Create docs/chapters/01.mdx by migrating Chapter 01 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
