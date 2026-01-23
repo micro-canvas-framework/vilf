@@ -681,8 +681,8 @@ Status: DONE
 Evidence:  
 - Production domain: vilf.doulab.net  
 - Cloudflare Pages project connected to GitHub repo: micro-canvas-framework/vilf  
-- Production deploy commit SHA: TBD  
-- Cloudflare deployment/build URL: TBD  
+- Production deploy commit SHA: a9ba75b67b6788a2b46556ffb4cbd8d0b2037f18  
+- Cloudflare deployment/build URL: https://7a251f8b.vilf.pages.dev/  
 Notes:  
 - Cloudflare Pages is configured and serving production at vilf.doulab.net.  
 
@@ -829,11 +829,22 @@ Notes: Local gates (typecheck/build) passed prior to push; GitHub push completed
 - Release artifacts prepared (LICENSE/CHANGELOG/RELEASE as applicable).
 
 ### BL-11A — Cloudflare Pages Deployment & Smoke Test
+---
+
+### BL-07X — Fill Cloudflare Deploy Evidence (SHA + URL)
+Status: DONE  
+Evidence:
+- Cloudflare deploy commit SHA: a9ba75b67b6788a2b46556ffb4cbd8d0b2037f18
+- Cloudflare Pages URL: https://7a251f8b.vilf.pages.dev/
+Notes:
+- Evidence sourced from Cloudflare Pages deploy logs; production mapped to vilf.doulab.net.
+
+
 Status: DONE  
 Evidence:
 - Production URL: vilf.doulab.net  
-- Cloudflare deploy commit SHA: TBD  
-- Cloudflare deployment/build URL: TBD  
+- Cloudflare deploy commit SHA: a9ba75b67b6788a2b46556ffb4cbd8d0b2037f18  
+- Cloudflare deployment/build URL: https://7a251f8b.vilf.pages.dev/  
 
 Smoke test (PASS):
 - /  
