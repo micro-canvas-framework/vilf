@@ -1070,7 +1070,8 @@ Notes:
 - Audit note: Normalized text differs. lenΔ=47. First-diff snippet (canon): "# 06.1 Purpose
 ---
 ### BL-06S07 — Annex 07 Sync (MISMATCH)
-Status: TODO  
+Status: DONE
+Evidence: 1b3fe3d
 Scope:
 - Re-sync docs/annexes/07.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
