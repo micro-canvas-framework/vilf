@@ -726,7 +726,9 @@ Acceptance Criteria:
 ---
 
 BL-09 - Chapter Migration Plan (Design Only)  
-Status: PLANNED  
+Status: DONE  
+Evidence (Commit IDs): 7a46af4, 5605f4c, 87698b4  
+Notes: Audit of public ops exposure completed; homepage CTA cleanup (BL-09A) and ops unlisted (BL-09B) applied; build gates passed.  
 Scope:  
 - Define chapter-to-MDX mapping  
 - Define front-matter schema  
