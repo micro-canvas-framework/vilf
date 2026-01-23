@@ -386,7 +386,7 @@ Acceptance Criteria:
 
 BL-06A — Migration Conventions + Index Page  
 Status: DONE
-Evidence (Commit ID): TBD
+Evidence (Commit ID): 6804b58
 Scope:  
 - Create a public “Migration Notes / Index” page under /docs explaining rules of migration (no rewriting)  
 - Define front-matter conventions for migrated chapters/annexes  
