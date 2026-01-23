@@ -26,10 +26,10 @@ export default function Home(): JSX.Element {
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 18 }}>
             <Link className="button button--primary button--lg" to="/docs/intro">
-              View Project Backlog
+              Read Introduction
             </Link>
-            <Link className="button button--secondary button--lg" to="/docs/ops/vilf-backlog">
-              How This Site Will Evolve
+            <Link className="button button--secondary button--lg" to="/docs/roadmap">
+              View Roadmap
             </Link>
           </div>
           <p style={{ marginTop: 16 }} className="vilf-muted">
@@ -100,8 +100,8 @@ export default function Home(): JSX.Element {
               We will finalize styling parity (VIF + Doulab palette) and infrastructure gates before migrating chapter content into MDX.
             </p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 10 }}>
-              <Link className="button button--primary" to="/docs/ops/vilf-backlog">
-                Track progress
+              <Link className="button button--primary" to="/docs/roadmap">
+                View Roadmap
               </Link>
             </div>
           </div>
