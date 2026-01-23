@@ -768,8 +768,10 @@ Notes:
 Evidence (Commit ID): da1f8bd  
 
 ## Phase 4 - Final Gates
-### BL-11 — Pre-Release Verification
-**Status:** TODO  
+### BL-11 - Pre-Release Verification
+**Status:** DONE  
+Evidence (Commit ID): c51cdd5  
+Notes: First push after migration; local build/typecheck passed before push; origin/main updated.  
 **Acceptance Criteria:**
 - Terminology consistency passes.
 - Cross-references resolve correctly.
