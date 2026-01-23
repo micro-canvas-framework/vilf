@@ -795,7 +795,8 @@ Notes:
 - Verified ops is not exposed in public navigation.  
 
 ### BL-12 - Tag and Publish VILF 1.0
-**Status:** TODO  
+**Status:** DONE  
+Evidence: tag v1.0.0 @ ebb166b  
 **Acceptance Criteria:**
 - Version tag created.
 - Release notes updated.
