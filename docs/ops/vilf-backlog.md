@@ -948,3 +948,280 @@ Execute and close the remaining TODO items before starting BL-14:
 
 
 
+
+
+## Phase 3 — Annex Sync (Post-Canon Update)
+### Atomic Annex Sync Tasks (from BL-06R audit)
+Source audit: `docs/ops/audits/bl-06r-annex-sync-audit.md`
+
+---
+### BL-06S01 — Annex 01 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/01.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 01).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/01.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 01 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=66. First-diff snippet (canon): "# 01.1 Purpose
+---
+### BL-06S02 — Annex 02 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/02.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 02).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/02.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 02 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=55. First-diff snippet (canon): "# 02.1 Purpose
+---
+### BL-06S03 — Annex 03 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/03.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 03).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/03.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 03 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=76. First-diff snippet (canon): "# 03.1 Purpose
+---
+### BL-06S04 — Annex 04 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/04.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 04).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/04.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 04 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=26. First-diff snippet (canon): "# 04.1 Purpose
+---
+### BL-06S05 — Annex 05 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/05.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 05).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/05.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 05 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=54. First-diff snippet (canon): "# 05.1 Purpose
+---
+### BL-06S06 — Annex 06 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/06.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 06).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/06.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 06 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=47. First-diff snippet (canon): "# 06.1 Purpose
+---
+### BL-06S07 — Annex 07 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/07.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 07).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/07.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 07 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=-52. First-diff snippet (canon): "# 07.1 Purpose
+---
+### BL-06S08 — Annex 08 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/08.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 08).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/08.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 08 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=52. First-diff snippet (canon): "# 08.1 Purpose
+---
+### BL-06S09 — Annex 09 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/09.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 09).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/09.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 09 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=67. First-diff snippet (canon): "# 09.1 Purpose
+---
+### BL-06S10 — Annex 10 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/10.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 10).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/10.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 10 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=45. First-diff snippet (canon): "# 10.1 Purpose
+---
+### BL-06S11 — Annex 11 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/11.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 11).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/11.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 11 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=53. First-diff snippet (canon): "# 11.1 Purpose
+---
+### BL-06S12 — Annex 12 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/12.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 12).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/12.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 12 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=55. First-diff snippet (canon): "# 12.1 Purpose
+---
+### BL-06S13 — Annex 13 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/13.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 13).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/13.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 13 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=47. First-diff snippet (canon): "# 13.1 Purpose
+---
+### BL-06S14 — Annex 14 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/14.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 14).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/14.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 14 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=65. First-diff snippet (canon): "# 14.1 Purpose
+---
+### BL-06S15 — Annex 15 Sync (MISMATCH)
+Status: TODO  
+Scope:
+- Re-sync docs/annexes/15.mdx to match manuscript annex text (verbatim)
+- Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
+- Keep existing doc id stable (Annex 15).
+- Record any unavoidable MDX normalization in Notes.
+
+Acceptance Criteria:
+- docs/annexes/15.mdx renders cleanly in Docusaurus.
+- Content matches `VILF-1.0-Annexes.md` for Annex 15 under agreed normalization.
+- npm run typecheck passes.
+- npm run build passes.
+- Backlog item closed with commit evidence.
+
+Notes:
+- Audit note: Normalized text differs. lenΔ=33. First-diff snippet (canon): "# 15.1 Purpose
+
