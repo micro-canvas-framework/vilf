@@ -11,7 +11,7 @@ function Card(props: { title: string; children: React.ReactNode }) {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function Home(): React.JSX.Element {
   return (
     <Layout
       title="Vigía Innovation Lab Framework (VILF) 1.0"
