@@ -165,7 +165,13 @@ All chapter files must be:
 
 Canon changes require explicit approval and documentation in release notes.
 
-## Governance Change Control (Mandatory)
+## Governance
+
+### Canonical Sources & Terminology
+- **Authoritative manuscript source:** `manuscript/VILF-1.0-master_2.md` (Master 1 is a draft and must not be treated as canon for v1.0).
+- **Terminology canonicalization:** always use **IMM-P®** (never "IMM-Pr" or variants). When encountered, normalize to IMM-P®.
+- **Rule discipline:** any new governance/process/quality rule derived during execution must be added to **AGENTS.md** *and* tracked as a backlog item (define → execute → close with commit evidence).
+ Change Control (Mandatory)
 
 Any change to governance rules, contracts, or operating constraints must be:
 1) Codified in **AGENTS.md** (as the authoritative governance contract), and
