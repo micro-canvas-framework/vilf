@@ -765,7 +765,7 @@ Notes:
 - Placeholder-only commits kept as-is to preserve auditable migration steps; optional squash possible later.  
 - Known placeholder-only commits: 42e3f6f, 95dec4e, fcd179d, a4fb29f, 027772f, 40b1741, b1490a4, 12b7a68, 2f09385, ec12ab3, 2f9362f  
 
-Evidence (Commit ID): TODO  
+Evidence (Commit ID): da1f8bd  
 
 ## Phase 4 - Final Gates
 ### BL-11 — Pre-Release Verification
