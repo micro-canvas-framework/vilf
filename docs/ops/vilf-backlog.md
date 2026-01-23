@@ -719,7 +719,7 @@ Acceptance Criteria:
 
 ---
 
-BL-09 — Chapter Migration Plan (Design Only)  
+BL-09 - Chapter Migration Plan (Design Only)  
 Status: PLANNED  
 Scope:  
 - Define chapter-to-MDX mapping  
@@ -733,7 +733,20 @@ Acceptance Criteria:
 
 ---
 
-BL-10 — Phase Gate: Pre-Migration Closeout  
+BL-09A - Consistency + Navigation + Build Audit  
+Status: DONE  
+Evidence (Commit ID): 7a46af4  
+Scope:  
+- Validate public navigation and remove any ops exposure  
+- Ensure build passes after corrections  
+
+Acceptance Criteria:  
+- No /docs/ops links in public homepage  
+- npm run build succeeds  
+
+---
+
+BL-10 - Phase Gate: Pre-Migration Closeout  
 Status: PLANNED  
 Scope:  
 - Final verification of BL-02 → BL-09  
