@@ -228,7 +228,10 @@ Acceptance Criteria:
 ---
 
 BL-04 - Landing Page Construction (VILF)  
-Status: TODO  
+Status: DONE
+Evidence (Commit IDs): 4b4ed3c, 7a46af4
+Notes:
+- Implemented via BL-03D (homepage layout) + BL-09A (public CTA cleanup).
 Scope:  
 - Build full VILF landing page (hero, sections, cards)  
 - Use placeholder copy where necessary  
@@ -294,7 +297,10 @@ Acceptance Criteria:
 ---
 
 BL-05 - Sitemap & Navigation Configuration  
-Status: TODO  
+Status: DONE
+Evidence (Commit IDs): 01a2578, 4a0f1d4, 48d61b4
+Notes:
+- Covered by BL-04A/04B + BL-05A/05B/05C; config/sidebar sanity confirmed during BL-09.
 Scope:  
 - Define top-level sitemap and navigation  
 - Align navigation model with VIF  
@@ -761,7 +767,10 @@ Evidence (Commit ID): 6de968b
 Scope: create docs/chapters/11.mdx ... 15.mdx (verbatim), remove placeholders 11.md..15.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
-Status: TODO  
+Status: DONE
+Evidence (Commit IDs): c51cdd5, d114ec9
+Notes:
+- Superseded: migration completed and pre-release gates + first push were executed successfully.
 Scope:  
 - Validate readiness for chapter import  
 - Check AGENTS.md compliance  
