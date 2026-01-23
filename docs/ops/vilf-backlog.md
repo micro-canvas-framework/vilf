@@ -107,9 +107,9 @@ Acceptance Criteria:
 ---
 
 BL-02B — Fix Docs Nesting After Root Move (docs/docs → docs)  
-Status: CANCELLED  
+Status: DONE  
 Evidence (Commit ID): 9ccca0b  
-Notes: docs/docs nesting not present in current repo state; no action required; item cancelled to avoid redundant work.  
+Notes: Cancelled — docs/docs nesting not present in current repo state; no action required; item closed to avoid redundant work.  
 Scope:  
 - Flatten Docusaurus docs from docs/docs/* into docs/*  
 - Preserve docs/ops intact  
@@ -228,7 +228,7 @@ Acceptance Criteria:
 ---
 
 BL-04 - Landing Page Construction (VILF)  
-Status: PLANNED  
+Status: TODO  
 Scope:  
 - Build full VILF landing page (hero, sections, cards)  
 - Use placeholder copy where necessary  
@@ -294,7 +294,7 @@ Acceptance Criteria:
 ---
 
 BL-05 - Sitemap & Navigation Configuration  
-Status: PLANNED  
+Status: TODO  
 Scope:  
 - Define top-level sitemap and navigation  
 - Align navigation model with VIF  
@@ -379,7 +379,7 @@ Acceptance Criteria:
 ---
 
 BL-06A — Migration Conventions + Index Page  
-Status: PLANNED  
+Status: TODO  
 Scope:  
 - Create a public “Migration Notes / Index” page under /docs explaining rules of migration (no rewriting)  
 - Define front-matter conventions for migrated chapters/annexes  
@@ -390,7 +390,6 @@ Acceptance Criteria:
 
 ---
 
-BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
 BL-06B0 — Migrate Chapter 00 (Executive Summary) (Manuscript → MDX)  
 Status: DONE  
 Evidence (Commit ID): 978c545  
@@ -405,10 +404,13 @@ Acceptance Criteria:
 
 ---
 
-Status: PLANNED  
+BL-06B — Migrate Chapter 01 (Manuscript → MDX)  
+Status: TODO  
 Scope:  
 - Create docs/chapters/01.mdx by migrating Chapter 01 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
+Notes:  
+- This item exists in the backlog but the DONE evidence is not recorded in this section. Verify whether Chapter 01 is already migrated; if yes, update to DONE with commit evidence.  
 Acceptance Criteria:  
 - Content present in docs/chapters/01.mdx  
 - Sidebar continues to work (same doc id)  
@@ -416,11 +418,47 @@ Acceptance Criteria:
 
 ---
 
-BL-06C — Migrate Annex 01 (Manuscript → MDX)  
+BL-06C — Migrate Annex 01 (ToR — Labs Tier-0) (Manuscript → MDX)  
+Status: DONE  
+Evidence (Commit ID): b923048  
+Scope:  
+- Create docs/annexes/01.mdx by migrating Annex 01 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+Acceptance Criteria:  
+- Content present in docs/annexes/01.mdx  
+- Sidebar continues to work (same doc id)  
+- No broken links; npm run build succeeds  
+
+---
+
 BL-06D — Migrate Annex 02 (ToR — Hubs Tier-1) (Manuscript → MDX)  
+Status: DONE  
+Evidence (Commit ID): 9318f5e  
+Scope:  
+- Create docs/annexes/02.mdx by migrating Annex 02 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+Acceptance Criteria:  
+- Content present in docs/annexes/02.mdx  
+- Sidebar continues to work (same doc id)  
+- npm run build succeeds  
+
+---
+
 BL-06E — Migrate Annex 03 (ToR — Network Coordination Unit Tier-2) (Manuscript → MDX)  
+Status: DONE  
+Evidence (Commit ID): 25cf9ff  
+Scope:  
+- Create docs/annexes/03.mdx by migrating Annex 03 content from manuscript  
+- Preserve wording and headings; adjust only for MDX compliance  
+Acceptance Criteria:  
+- Content present in docs/annexes/03.mdx  
+- Sidebar continues to work (same doc id)  
+- npm run build succeeds  
+
+---
+
 BL-06F — Migrate Annex 04 (Multi-Institutional MoU Template) (Manuscript → MDX)  
-Status: PLANNED  
+Status: TODO  
 Scope:  
 - Create docs/annexes/04.mdx by migrating Annex 04 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
@@ -650,6 +688,19 @@ Notes:
 
 ---
 
+BL-07X — Record Cloudflare Deploy Evidence (SHA + Build URL)
+Status: TODO
+Scope:
+- Replace the remaining TBD placeholders in BL-07 and BL-11A with:
+  - Production deploy commit SHA
+  - Cloudflare Pages build/deployment URL (or equivalent)
+Acceptance Criteria:
+- BL-07 and BL-11A contain concrete SHA + URL (no TBD)
+- Backlog-only change
+- npm run build passes
+
+---
+
 BL-07A — Migrate Chapter 02 (Ecosystem Diagnostic) (Manuscript → MDX)  
 Status: DONE  
 Evidence (Commit ID): e6446c9  
@@ -710,7 +761,7 @@ Evidence (Commit ID): 6de968b
 Scope: create docs/chapters/11.mdx ... 15.mdx (verbatim), remove placeholders 11.md..15.md if present, keep sidebar stable.  
 
 BL-08 — Docusaurus Readiness Audit  
-Status: PLANNED  
+Status: TODO  
 Scope:  
 - Validate readiness for chapter import  
 - Check AGENTS.md compliance  
@@ -804,8 +855,15 @@ Evidence: tag v1.0.0 @ ebb166b
 
 ---
 
-## Next Execution Task
-**BL-02 — Define Canon / Book / Annex File Map (Pre-Docusaurus)**
+## Next Execution Tasks (Pre-Editorial)
+Execute and close the remaining TODO items before starting BL-14:
+1) BL-06A (Migration Conventions + Index Page)
+2) BL-06B (Chapter 01) — verify/migrate + record evidence
+3) BL-06F (Annex 04 MoU Template)
+4) BL-04 (Landing Page Construction) — if still required
+5) BL-05 (Sitemap & Navigation Configuration) — if still required
+6) BL-08 (Docusaurus Readiness Audit)
+7) BL-07X (Fill Cloudflare SHA + Build URL evidence)
 
 
 
