@@ -956,12 +956,13 @@ Source audit: `docs/ops/audits/bl-06r-annex-sync-audit.md`
 
 ---
 ### BL-06S01 — Annex 01 Sync (MISMATCH)
-Status: TODO  
+Status: DONE  
 Scope:
 - Re-sync docs/annexes/01.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
 - Keep existing doc id stable (Annex 01).
 - Record any unavoidable MDX normalization in Notes.
+Evidence (Commit ID): 8bceae98324b3c6d8f796e2ab48e2b6c08845305
 
 Acceptance Criteria:
 - docs/annexes/01.mdx renders cleanly in Docusaurus.
