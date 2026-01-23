@@ -1108,7 +1108,8 @@ Notes:
 - Audit note: Normalized text differs. lenΔ=52. First-diff snippet (canon): "# 08.1 Purpose
 ---
 ### BL-06S09 — Annex 09 Sync (MISMATCH)
-Status: TODO  
+Status: DONE
+Evidence (Commit ID): 6425704
 Scope:
 - Re-sync docs/annexes/09.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
