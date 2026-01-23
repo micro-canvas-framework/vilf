@@ -384,6 +384,31 @@ Acceptance Criteria:
 
 ---
 
+BL-06R — Audit: Annexes Sync Against Master 2 (Chapters-Only Canon Update)
+Status: TODO
+Scope:
+- Validate whether the annexes (migrated from Master 1 / Annexes manuscript) remain consistent with the revised Chapter content in Master 2.
+- Check for:
+  - Terminology drift (e.g., IMM-P® usage)
+  - Role/tier naming drift (Lab/Hub/NCU)
+  - Governance references that changed in chapters but remain stale in annexes
+  - Cross-reference integrity (annex references to chapters that changed wording/anchors)
+
+Acceptance Criteria:
+- A short audit report is added to `docs/ops/` (e.g., `docs/ops/annex-sync-audit.md`) listing:
+  - “In sync” annexes
+  - Annexes requiring edits + exact diffs required (no rewrites)
+- Any required annex edits are implemented with build gate before commit
+- npm run build passes
+
+Evidence:
+- Commit(s): TBD
+
+Notes:
+- Master 2 contains chapters only; annex source-of-truth remains the annex manuscript + prior migration commits, pending this audit.
+
+---
+
 BL-06A — Migration Conventions + Index Page  
 Status: DONE
 Evidence (Commit ID): 6804b58
@@ -841,6 +866,30 @@ Notes: Local gates (typecheck/build) passed prior to push; GitHub push completed
 
 ### BL-11A — Cloudflare Pages Deployment & Smoke Test
 ---
+
+BL-02I — Governance: Canonical Source + Terminology Rule (Master 2 + IMM-P®)
+Status: TODO
+Scope:
+- Track the newly adopted governance rules (already implemented in code/docs) as a backlog item:
+  - Canonical manuscript source for VILF v1.0 chapters is `manuscript/VILF-1.0-master_2.md`
+  - Canonical terminology is **IMM-P®** (normalize any variants)
+  - Any new governance/process/quality rule must be added to AGENTS.md and tracked in backlog
+
+Acceptance Criteria:
+- Backlog item exists with explicit rule statement (this entry)
+- Evidence includes the commits that implemented the rule + terminology normalization:
+  - ed9a1d0
+  - 9018cbd
+- npm run build passes
+
+Evidence:
+- Commit(s): TBD
+
+Notes:
+- Master 2 is chapters-only; annexes are sourced elsewhere and audited separately (see BL-06R).
+
+---
+
 
 ### BL-07X — Fill Cloudflare Deploy Evidence (SHA + URL)
 Status: DONE  
