@@ -994,12 +994,13 @@ Notes:
 - Audit note: Normalized text differs. lenΔ=55. First-diff snippet (canon): "# 02.1 Purpose
 ---
 ### BL-06S03 — Annex 03 Sync (MISMATCH)
-Status: TODO  
+Status: DONE  
 Scope:
 - Re-sync docs/annexes/03.mdx to match manuscript annex text (verbatim)
 - Preserve wording/headings; adjust only for MDX compliance (front-matter, escaping, code fences).
 - Keep existing doc id stable (Annex 03).
 - Record any unavoidable MDX normalization in Notes.
+Evidence (Commit ID): 1feccd8fabb0fb405dd6ec7a69207fd5b407338b
 
 Acceptance Criteria:
 - docs/annexes/03.mdx renders cleanly in Docusaurus.
@@ -1226,4 +1227,3 @@ Acceptance Criteria:
 
 Notes:
 - Audit note: Normalized text differs. lenΔ=33. First-diff snippet (canon): "# 15.1 Purpose
-
