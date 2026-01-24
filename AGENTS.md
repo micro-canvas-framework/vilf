@@ -37,6 +37,8 @@ The Book (or Guide) layer provides:
 
 The Book must never redefine, contradict, or extend the Canon. The Book is constrained by the Canon at all times.
 
+Editorial mechanics for Book-layer improvements are defined in docs/ops/editorial-standards.md. These rules are non-normative and must not alter Canon definitions, governance logic, or terminology.
+
 Rule: Canon constrains the Book. The Book does not redefine the Canon.
 
 ---
