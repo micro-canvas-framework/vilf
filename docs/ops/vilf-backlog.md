@@ -385,7 +385,7 @@ Acceptance Criteria:
 ---
 
 BL-06R — Audit: Annexes Sync Against Master 2 (Chapters-Only Canon Update)
-Status: TODO
+Status: DONE
 Scope:
 - Validate whether the annexes (migrated from Master 1 / Annexes manuscript) remain consistent with the revised Chapter content in Master 2.
 - Check for:
