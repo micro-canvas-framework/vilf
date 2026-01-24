@@ -1239,3 +1239,147 @@ Acceptance Criteria:
 
 Notes:
 - Audit note: Normalized text differs. lenΔ=33. First-diff snippet (canon): "# 15.1 Purpose
+
+---
+
+### BL-14 — Editorial Pass (Framework → Book Quality)
+Status: TODO
+Scope:
+- Improve readability and narrative flow across chapters without changing normative meaning.
+- Add explanatory bridges and reader orientation where helpful.
+- No diagrams in this phase (diagrams are BL-15).
+Acceptance Criteria:
+- Editorial changes are clearly explanatory only (no normative drift).
+- Build gates pass after each atomic chapter update.
+Notes:
+- Umbrella item. Execute via atomic tasks: BL-14A, BL-14B, BL-14C, BL-14D, BL-14E, BL-14F, BL-14G, BL-14H, BL-14I, BL-14J, BL-14K, BL-14L, BL-14M, BL-14N.
+- Preserve all normative rules; add explanatory bridges only.
+
+## Phase 5A — Editorial Pass (Atomic Tasks, No Diagrams)
+
+### BL-14A — Editorial Standards + Mechanics (Global)
+Status: TODO
+Scope:
+- Define the editorial “book quality” rules for this repo:
+  - Voice/tone consistency (clear, practitioner, not dry)
+  - “Normative vs explanatory” labeling convention (keep normative unchanged)
+  - Bridge paragraphs between sections (why this matters, how it connects)
+  - Minimal glossary reinforcement (link to Annex 15 when terms appear)
+  - Harvard-style citations deferred to BL-16 (but mark “citation-needed” notes where helpful)
+- Define the mechanical workflow:
+  - One chapter per commit (atomic)
+  - Run gates before commit (already mandated)
+  - Add a short “Editorial change note” at top of each touched chapter (non-normative)
+Acceptance Criteria:
+- A short ruleset exists (either in AGENTS.md addendum or a new docs/ops/editorial-standards.md) and is referenced from BL-14A
+- Does not change governance/canon rules; only adds editorial mechanics
+- npm run build passes
+
+### BL-14B — Editorial Pass: Chapter 00 (Executive Summary)
+Status: TODO
+Scope:
+- Improve narrative flow and clarity without changing meaning
+- Add bridges and reader orientation (“what this framework is / when to use it”)
+Acceptance Criteria:
+- docs/chapters/00.mdx reads cleanly and coherently
+- Normative statements unchanged; only explanatory additions
+- npm run build passes
+
+### BL-14C — Editorial Pass: Chapter 01 (Introduction)
+Status: TODO
+Scope:
+- Reduce dryness; add rationale and framing
+- Ensure IMM-P® terminology remains consistent
+Acceptance Criteria:
+- docs/chapters/01.mdx reads as a strong book introduction
+- No governance changes
+- npm run build passes
+
+### BL-14D — Editorial Pass: Chapter 02 (Ecosystem Diagnostic)
+Status: TODO
+Scope:
+- Add connective explanation: diagnostic → architecture → operating model
+Acceptance Criteria:
+- docs/chapters/02.mdx improved transitions; no meaning drift
+- npm run build passes
+
+### BL-14E — Editorial Pass: Chapter 03 (System Architecture)
+Status: TODO
+Scope:
+- Improve clarity of components and why they exist (no diagrams yet)
+Acceptance Criteria:
+- docs/chapters/03.mdx clearer, more readable
+- npm run build passes
+
+### BL-14F — Editorial Pass: Chapter 04 (Operating Model)
+Status: TODO
+Scope:
+- Clarify roles, cadence, and governance interfaces in plain language
+Acceptance Criteria:
+- docs/chapters/04.mdx reads as an operator handbook section
+- npm run build passes
+
+### BL-14G — Editorial Pass: Chapter 05 (Funding Model)
+Status: TODO
+Scope:
+- Add explanation of constraints, tradeoffs, and sustainability logic
+Acceptance Criteria:
+- docs/chapters/05.mdx clearer and more decision-useful
+- npm run build passes
+
+### BL-14H — Editorial Pass: Chapter 06 (Benchmarking)
+Status: TODO
+Scope:
+- Improve why benchmarking matters and how to interpret it
+Acceptance Criteria:
+- docs/chapters/06.mdx improved framing and transitions
+- npm run build passes
+
+### BL-14I — Editorial Pass: Chapter 07 (KPIs & Scorecard — MEL Core System)
+Status: TODO
+Scope:
+- Improve explanation of MEL logic and how to use scorecards
+Acceptance Criteria:
+- docs/chapters/07.mdx improved readability and practical guidance
+- npm run build passes
+
+### BL-14J — Editorial Pass: Chapter 08 (Roadmap & Phasing)
+Status: TODO
+Scope:
+- Make phasing rationale explicit; clarify sequencing logic
+Acceptance Criteria:
+- docs/chapters/08.mdx reads coherently as a “how to rollout” chapter
+- npm run build passes
+
+### BL-14K — Editorial Pass: Chapter 09 (Governance & Legal Toolkit)
+Status: TODO
+Scope:
+- Improve the “why” behind governance elements, without changing decision rights
+Acceptance Criteria:
+- docs/chapters/09.mdx clearer for real-world adoption
+- npm run build passes
+
+### BL-14L — Editorial Pass: Chapter 10 (Templates & Tools)
+Status: TODO
+Scope:
+- Add orientation and usage guidance for templates (no structural change)
+Acceptance Criteria:
+- docs/chapters/10.mdx reads as a usable operator reference
+- npm run build passes
+
+### BL-14M — Editorial Pass: Chapters 11–15 (References / Annex routing pages)
+Status: TODO
+Scope:
+- Improve navigation/orientation across references and annexes
+Acceptance Criteria:
+- docs/chapters/11.mdx…15.mdx improved readability
+- npm run build passes
+
+### BL-14N — Release Notes: Editorial Layer (No Diagrams Yet)
+Status: TODO
+Scope:
+- Update release notes / changelog discipline to track editorial-only changes distinctly
+Acceptance Criteria:
+- Release notes clearly distinguish editorial vs normative vs future diagram/citation work
+- npm run build passes
+
