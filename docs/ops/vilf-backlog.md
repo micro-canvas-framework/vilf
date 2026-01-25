@@ -1258,7 +1258,8 @@ Notes:
 ## Phase 5A — Editorial Pass (Atomic Tasks, No Diagrams)
 
 ### BL-14A — Editorial Standards + Mechanics (Global)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): c46b9e9, e60f641
 Scope:
 - Define the editorial “book quality” rules for this repo:
   - Voice/tone consistency (clear, practitioner, not dry)
