@@ -1277,7 +1277,8 @@ Acceptance Criteria:
 - npm run build passes
 
 ### BL-14B — Editorial Pass: Chapter 00 (Executive Summary)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): d75255c
 Scope:
 - Improve narrative flow and clarity without changing meaning
 - Add bridges and reader orientation (“what this framework is / when to use it”)
