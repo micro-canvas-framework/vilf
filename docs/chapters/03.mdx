@@ -15,6 +15,27 @@ sidebar_label: "03 — System Architecture"
 This chapter defines the structural architecture of a VILF ecosystem, including labs, hubs, the NCU, evidence flows, documentation systems, and capability spines. It translates diagnostic outputs from Chapter 02 into system constraints that shape how components relate. Execution and governance mechanics are defined in later chapters.
 
 ### 3.2 Architectural Layers
+:::info Diagram: VILF Architecture Tiers and Spines
+```mermaid
+%%{init: {'theme':'base','fontSize':16}}%%
+flowchart TB
+  T2["Tier-2: Network Coordination Unit (NCU)"]
+  T1["Tier-1: Hubs"]
+  T0["Tier-0: Innovation Labs"]
+  ES["Execution Spine (IMM-P)"]
+  CS["Capability Spine (IMM)"]
+  GS["Governance Spine (IGF)"]
+  PS["Performance Spine (MEL)"]
+  IS["Infrastructure Spine (documentation + evidence)"]
+  T2 --- T1
+  T1 --- T0
+  ES --- CS
+  CS --- GS
+  GS --- PS
+  PS --- IS
+```
+This diagram summarizes the tiered architecture and cross-cutting spines described in this chapter without implying sequence or authority beyond the text.
+:::
 VILF architecture includes:
 - **Tier-0:** Innovation Labs  
 - **Tier-1:** Hubs  
