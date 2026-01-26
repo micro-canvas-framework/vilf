@@ -1593,12 +1593,12 @@ Acceptance Criteria:
 - No new concepts, rules, or sequencing introduced.
 - npm run build passes.
 
-### BL-15A — Diagram Canon Prep: Inventory + Placement Plan
+### BL-15A - Diagram Canon Prep: Inventory + Placement Plan
 Status: DONE
 Evidence (Commit ID): 83c437f
 Scope:
 - Create docs/ops/diagram-standards.md and docs/ops/diagram-plan.md.
-- Inventory diagram candidates across chapters 00–15.
+- Inventory diagram candidates across chapters 00-15.
 - No diagrams added in this step.
 Acceptance Criteria:
 - Plan and standards exist.
@@ -1606,3 +1606,28 @@ Acceptance Criteria:
 - npm run build passes.
 Notes:
 - Inventory and placement plan completed; diagram insertion deferred to BL-15.
+
+### BL-16 — Academic Grounding & Harvard Citations
+Status: TODO
+Scope:
+- Add Harvard-style citations to explanatory context where required.
+- Preserve normative vs explanatory separation.
+- Use citation standards and plan from BL-16A.
+Acceptance Criteria:
+- Citations added per plan without altering normative content.
+- Reference lists present only where citations exist.
+- npm run build passes.
+
+### BL-16A — Citation Strategy (Planning Pass)
+Status: DONE
+Evidence (Commit IDs): 1c31105, 5820394
+Scope:
+- Define citation standards, eligibility rules, and Harvard conventions.
+- Create a chapter-level citation plan (00–15) with intensity levels.
+Acceptance Criteria:
+- docs/ops/citation-standards.md created.
+- docs/ops/citation-plan.md created with full chapter coverage.
+- No chapter text modified.
+- npm run build passes.
+Notes:
+- Planning-only pass; no citations inserted.
