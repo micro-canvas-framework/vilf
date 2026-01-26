@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15M — Diagram Insertions: Chapter 11 (References & Alignment)
+Status: DONE
+Evidence (Commit ID): 6abb370
+Scope:
+- Insert reference foundations diagram under section 11.1.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 11.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram presents references as contextual anchors without prioritization.
+
 ### BL-15L — Diagram Insertions: Chapter 10 (Templates & Tools)
 Status: DONE
 Evidence (Commit ID): f7f9aeb
