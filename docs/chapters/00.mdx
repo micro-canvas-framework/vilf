@@ -86,6 +86,18 @@ The following usability overview provides a compact map of the system structure 
 
 
 ## 00a – How the Framework Works (Usability Overview)
+:::info Diagram: Tier Architecture Map
+```mermaid
+%%{init: {'theme':'base','fontSize':16}}%%
+graph TD
+  NCU["Tier-2: Network Coordination Unit (NCU)"]
+  Hubs["Tier-1: Hubs"]
+  Labs["Tier-0: Labs"]
+  NCU --- Hubs
+  Hubs --- Labs
+```
+This diagram shows the three VILF tiers and their structural relationships, without implying sequence or authority beyond the chapter text.
+:::
 
 ### 00a.1 Conceptual Model
 VILF is built using a three-tier architecture:
