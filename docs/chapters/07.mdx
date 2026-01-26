@@ -17,6 +17,24 @@ KPIs:
 - standardize quality.
 
 ### 7.2 KPI Architecture
+:::info Diagram: KPI Domain Map
+```mermaid
+%%{init: {'theme':'base','fontSize':16}}%%
+flowchart TB
+  KPI["KPI Domains"]
+  SA["Strategic Alignment (MCF)"]
+  CM["Capability & Maturity (IMM)"]
+  EQ["Execution Quality (IMM-P)"]
+  GC["Governance Compliance (IGF)"]
+  PL["Performance & Learning (MEL)"]
+  KPI --- SA
+  KPI --- CM
+  KPI --- EQ
+  KPI --- GC
+  KPI --- PL
+```
+This diagram maps the five KPI domains as classification lenses only, without implying scoring or evaluation flow.
+:::
 5 domains:
 1. Strategic Alignment (MCF)  
 2. Capability & Maturity (IMM)  
