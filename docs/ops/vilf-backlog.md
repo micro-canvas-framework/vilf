@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15G — Diagram Insertions: Chapter 05 (Funding & Sustainability Model)
+Status: DONE
+Evidence (Commit ID): 44bcafe
+Scope:
+- Insert funding streams diagram under section 5.4.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 05.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram summarizes funding categories without implying prioritization.
+
 ### BL-15E — Diagram Insertions: Chapter 03 (System Architecture)
 Status: DONE
 Evidence (Commit ID): d5b9bbc
