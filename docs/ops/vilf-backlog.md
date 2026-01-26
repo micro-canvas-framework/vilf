@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15I — Diagram Insertions: Chapter 07 (KPI Domain Map)
+Status: DONE
+Evidence (Commit ID): 36c37c3
+Scope:
+- Insert KPI domain map under section 7.2.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 07.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram presents KPI domains as classification lenses, not scoring logic.
+
 ### BL-15H — Diagram Insertions: Chapter 06 (Benchmarking)
 Status: DONE
 Evidence (Commit ID): cc51ee7
