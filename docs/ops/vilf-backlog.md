@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15B2 — Remove 00a.2 and fix Mermaid rendering (Chapter 00)
+Status: DONE
+Evidence (Commit ID): 9a44e9a
+Scope:
+- Remove the 00a.2 Chapter Map subsection from Chapter 00.
+- Ensure Mermaid fence starts at column 0 for the Tier architecture map.
+Acceptance Criteria:
+- 00a.2 section removed.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Fix was required because the diagram was not rendering; no semantic changes to the diagram.
+
 ### BL-15B1 — Fix Mermaid rendering for Chapter 00 diagram
 Status: DONE
 Evidence (Commit ID): 2c56ef0
