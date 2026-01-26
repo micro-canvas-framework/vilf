@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15E — Diagram Insertions: Chapter 03 (System Architecture)
+Status: DONE
+Evidence (Commit ID): d5b9bbc
+Scope:
+- Insert architecture tiers and spines diagram under section 3.2.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 03.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram expresses tiered architecture and spines without procedural sequencing.
+
 ### BL-15D — Diagram Insertions: Chapter 02 (Diagnostic & Gating)
 Status: DONE
 Evidence (Commit ID): fbf5e9a
