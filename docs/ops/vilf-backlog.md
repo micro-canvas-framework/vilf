@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15H — Diagram Insertions: Chapter 06 (Benchmarking)
+Status: DONE
+Evidence (Commit ID): cc51ee7
+Scope:
+- Insert benchmarking architecture diagram under section 6.3.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 06.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram summarizes tier-specific benchmarking focus without scoring or progression.
+
 ### BL-15G — Diagram Insertions: Chapter 05 (Funding & Sustainability Model)
 Status: DONE
 Evidence (Commit ID): 44bcafe
