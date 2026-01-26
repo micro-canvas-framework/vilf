@@ -1607,8 +1607,9 @@ Acceptance Criteria:
 Notes:
 - Inventory and placement plan completed; diagram insertion deferred to BL-15.
 
-### BL-16 — Academic Grounding & Harvard Citations
-Status: TODO
+### BL-16 - Academic Grounding & Harvard Citations
+Status: DONE
+Evidence (Commit ID): 289d310
 Scope:
 - Add Harvard-style citations to explanatory context where required.
 - Preserve normative vs explanatory separation.
@@ -1617,6 +1618,8 @@ Acceptance Criteria:
 - Citations added per plan without altering normative content.
 - Reference lists present only where citations exist.
 - npm run build passes.
+Notes:
+- Harvard citations inserted per BL-16A standards + plan; chapters updated: 01, 02, 05, 06, 07, 08, 09, 11, 14.
 
 ### BL-16A — Citation Strategy (Planning Pass)
 Status: DONE
