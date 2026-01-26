@@ -13,12 +13,19 @@ Workflow and quality gates are defined in `/AGENTS.md`.
 
 ## Backlog Rules
 - Each task has a stable ID (BL-XX).
-- “Status” is one of: `TODO`, `IN_PROGRESS`, `BLOCKED`, `DONE`.
-- “Acceptance Criteria” are mandatory and testable.
+- "Status" is one of: `TODO`, `IN_PROGRESS`, `BLOCKED`, `DONE`.
+- "Acceptance Criteria" are mandatory and testable.
 - Canon/Core changes require explicit approval per AGENTS.md.
 - No task is considered DONE unless acceptance criteria are fully met.
 
 ---
+
+## Backlog Integrity Notes (2026-01-26)
+- Renumbering: BL-13 (governance) → BL-12X to avoid collision with BL-13 Companion Guide.
+- Duplicate BL-07X entry removed; single DONE entry retained.
+- BL-14 umbrella reconciled with atomic tasks marked DONE (covered by umbrella evidence).
+- BL-06R evidence updated and closure clarified; annex resyncs tracked via BL-06S01–BL-06S15.
+- BL-06F marked DONE (superseded by BL-06S04).
 
 ## Current Artifacts (Inputs)
 - Master Draft (VILF 1.0): `VILF-1.0-master_1.md`, `VILF-1.0-master_2.md`
@@ -402,11 +409,11 @@ Acceptance Criteria:
 - npm run build passes
 
 Evidence:
-- Commit(s): TBD
+- Commit(s): 19e822c, c38e7c6, 29d759f
 
 Notes:
-- Master 2 contains chapters only; annex source-of-truth remains the annex manuscript + prior migration commits, pending this audit.
-
+- Audit completed; mismatches resolved via BL-06S01–BL-06S15 atomic resync tasks.
+- Source remains manuscript/VILF-1.0-Annexes.md.
 ---
 
 BL-06A — Migration Conventions + Index Page  
@@ -491,7 +498,8 @@ Acceptance Criteria:
 ---
 
 BL-06F — Migrate Annex 04 (Multi-Institutional MoU Template) (Manuscript → MDX)  
-Status: TODO  
+Status: DONE
+Evidence (Commit ID): c38e7c6
 Scope:  
 - Create docs/annexes/04.mdx by migrating Annex 04 content from manuscript  
 - Preserve wording and headings; adjust only for MDX compliance  
@@ -502,6 +510,9 @@ Acceptance Criteria:
 - npm run build succeeds  
 - Closeout includes commit id evidence  
 
+
+Notes:
+- Superseded by BL-06S04 (Annex 04 sync).
 ---
 
 BL-06G — Migrate Annex 05 (Governance Decision Rights Matrix — IGF) (Manuscript → MDX)  
@@ -721,17 +732,6 @@ Notes:
 
 ---
 
-BL-07X — Record Cloudflare Deploy Evidence (SHA + Build URL)
-Status: TODO
-Scope:
-- Replace the remaining TBD placeholders in BL-07 and BL-11A with:
-  - Production deploy commit SHA
-  - Cloudflare Pages build/deployment URL (or equivalent)
-Acceptance Criteria:
-- BL-07 and BL-11A contain concrete SHA + URL (no TBD)
-- Backlog-only change
-- npm run build passes
-
 ---
 
 BL-07A — Migrate Chapter 02 (Ecosystem Diagnostic) (Manuscript → MDX)  
@@ -865,31 +865,21 @@ Notes: Local gates (typecheck/build) passed prior to push; GitHub push completed
 - Release artifacts prepared (LICENSE/CHANGELOG/RELEASE as applicable).
 
 ### BL-11A — Cloudflare Pages Deployment & Smoke Test
----
-
-BL-02I — Governance: Canonical Source + Terminology Rule (Master 2 + IMM-P®)
 Status: DONE
-Scope:
-- Track the newly adopted governance rules (already implemented in code/docs) as a backlog item:
-  - Canonical manuscript source for VILF v1.0 chapters is `manuscript/VILF-1.0-master_2.md`
-  - Canonical terminology is **IMM-P®** (normalize any variants)
-  - Any new governance/process/quality rule must be added to AGENTS.md and tracked in backlog
-
-Acceptance Criteria:
-- Backlog item exists with explicit rule statement (this entry)
-- Evidence includes the commits that implemented the rule + terminology normalization:
-  - ed9a1d0
-  - 9018cbd
-- npm run build passes
-
 Evidence:
-- Commit(s): ed9a1d0, 9018cbd
+- Production URL: vilf.doulab.net
+- Cloudflare deploy commit SHA: a9ba75b67b6788a2b46556ffb4cbd8d0b2037f18
+- Cloudflare deployment/build URL: https://7a251f8b.vilf.pages.dev/
+
+Smoke test (PASS):
+- /
+- /docs/intro
+- /docs/roadmap
+- /docs/chapters/00
+- /docs/annexes/01
 
 Notes:
-- Master 2 is chapters-only; annexes are sourced elsewhere and audited separately (see BL-06R).
-
----
-
+- Verified ops is not exposed in public navigation.
 
 ### BL-07X — Fill Cloudflare Deploy Evidence (SHA + URL)
 Status: DONE  
@@ -900,22 +890,6 @@ Notes:
 - Evidence sourced from Cloudflare Pages deploy logs; production mapped to vilf.doulab.net.
 
 
-Status: DONE  
-Evidence:
-- Production URL: vilf.doulab.net  
-- Cloudflare deploy commit SHA: a9ba75b67b6788a2b46556ffb4cbd8d0b2037f18  
-- Cloudflare deployment/build URL: https://7a251f8b.vilf.pages.dev/  
-
-Smoke test (PASS):
-- /  
-- /docs/intro  
-- /docs/roadmap  
-- /docs/chapters/00  
-- /docs/annexes/01  
-
-Notes:
-- Verified ops is not exposed in public navigation.  
-
 ### BL-12 - Tag and Publish VILF 1.0
 **Status:** DONE  
 Evidence: tag v1.0.0 @ ebb166b  
@@ -924,13 +898,23 @@ Evidence: tag v1.0.0 @ ebb166b
 - Release notes updated.
 - Public deployment confirmed.
 
-### BL-13 - Governance: Canonical Source + Terminology Rule
+### BL-13 - Companion Guide (Doulab)
+Status: BLOCKED
+Scope:
+- Produce a companion guide aligned to the VILF framework for external audiences.
+Acceptance Criteria:
+- Companion guide drafted and reviewed.
+- No conflicts with VILF canonical manuscript.
+Notes:
+- Blocked pending scope alignment and resourcing.
+
+### BL-12X - Governance: Canonical Source + Terminology Rule
 Status: DONE  
 Evidence (Commit IDs): 9018cbd, ed9a1d0  
 Notes:
+- Renumbering note: BL-13 (governance) renumbered to BL-12X on 2026-01-26 to avoid collision with BL-13 Companion Guide.
 - AGENTS.md codifies canonical manuscript source as manuscript/VILF-1.0-master_2.md.
-- IMM-P® terminology normalized and enforced as canonical spelling.
-
+- IMM-Pr terminology normalized and enforced as canonical spelling.
 ---
 
 ## Next Execution Tasks (Pre-Editorial)
@@ -1261,7 +1245,7 @@ Notes:
 
 ### BL-14A — Editorial Standards + Mechanics (Global)
 Status: DONE
-Evidence (Commit ID): c46b9e9, e60f641
+Evidence (Commit ID): c46b9e9, e60f641, 38db042
 Scope:
 - Define the editorial “book quality” rules for this repo:
   - Voice/tone consistency (clear, practitioner, not dry)
@@ -1280,7 +1264,7 @@ Acceptance Criteria:
 
 ### BL-14B — Editorial Pass: Chapter 00 (Executive Summary)
 Status: DONE
-Evidence (Commit ID): d75255c
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve narrative flow and clarity without changing meaning
 - Add bridges and reader orientation (“what this framework is / when to use it”)
@@ -1288,9 +1272,12 @@ Acceptance Criteria:
 - docs/chapters/00.mdx reads cleanly and coherently
 - Normative statements unchanged; only explanatory additions
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14C — Editorial Pass: Chapter 01 (Introduction)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Reduce dryness; add rationale and framing
 - Ensure IMM-P® terminology remains consistent
@@ -1298,89 +1285,122 @@ Acceptance Criteria:
 - docs/chapters/01.mdx reads as a strong book introduction
 - No governance changes
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14D — Editorial Pass: Chapter 02 (Ecosystem Diagnostic)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Add connective explanation: diagnostic → architecture → operating model
 Acceptance Criteria:
 - docs/chapters/02.mdx improved transitions; no meaning drift
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14E — Editorial Pass: Chapter 03 (System Architecture)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve clarity of components and why they exist (no diagrams yet)
 Acceptance Criteria:
 - docs/chapters/03.mdx clearer, more readable
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14F — Editorial Pass: Chapter 04 (Operating Model)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Clarify roles, cadence, and governance interfaces in plain language
 Acceptance Criteria:
 - docs/chapters/04.mdx reads as an operator handbook section
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14G — Editorial Pass: Chapter 05 (Funding Model)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Add explanation of constraints, tradeoffs, and sustainability logic
 Acceptance Criteria:
 - docs/chapters/05.mdx clearer and more decision-useful
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14H — Editorial Pass: Chapter 06 (Benchmarking)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve why benchmarking matters and how to interpret it
 Acceptance Criteria:
 - docs/chapters/06.mdx improved framing and transitions
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14I — Editorial Pass: Chapter 07 (KPIs & Scorecard — MEL Core System)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve explanation of MEL logic and how to use scorecards
 Acceptance Criteria:
 - docs/chapters/07.mdx improved readability and practical guidance
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14J — Editorial Pass: Chapter 08 (Roadmap & Phasing)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Make phasing rationale explicit; clarify sequencing logic
 Acceptance Criteria:
 - docs/chapters/08.mdx reads coherently as a “how to rollout” chapter
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14K — Editorial Pass: Chapter 09 (Governance & Legal Toolkit)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve the “why” behind governance elements, without changing decision rights
 Acceptance Criteria:
 - docs/chapters/09.mdx clearer for real-world adoption
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14L — Editorial Pass: Chapter 10 (Templates & Tools)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Add orientation and usage guidance for templates (no structural change)
 Acceptance Criteria:
 - docs/chapters/10.mdx reads as a usable operator reference
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14M — Editorial Pass: Chapters 11–15 (References / Annex routing pages)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve navigation/orientation across references and annexes
 Acceptance Criteria:
 - docs/chapters/11.mdx…15.mdx improved readability
 - npm run build passes
+Notes:
+- Covered by BL-14 umbrella editorial pass commit f0fa53f.
 
 ### BL-14N — Release Notes: Editorial Layer (No Diagrams Yet)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Update release notes / changelog discipline to track editorial-only changes distinctly
 Acceptance Criteria:
