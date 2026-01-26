@@ -1388,8 +1388,49 @@ Acceptance Criteria:
 - npm run build passes
 
 
-### BL-15 — Diagram & Visual Canon (Post-Editorial)
-### BL-15M — Diagram Insertions: Chapter 11 (References & Alignment)
+### BL-15 - Diagram & Visual Canon (Post-Editorial)
+### BL-15X — Diagram Consistency Audit + Deferred Chapters (BL-15F + BL-15J)
+Status: DONE
+Evidence (Commit IDs): 6e0fd98, eef4750, e0f94a7
+Scope:
+- Perform a global diagram consistency audit (captions, labels, Mermaid hygiene, placement).
+- Insert controlled, non-sequential diagrams for Chapters 04 and 08.
+Acceptance Criteria:
+- Captions explicitly state descriptive, non-normative scope.
+- All diagrams render as SVG; no code-fence leaks.
+- Chapter 04 governance diagram avoids sequencing and decision flow.
+- Chapter 08 operating model diagram avoids sequencing and lifecycle language.
+- npm run build passes.
+Notes:
+- Audit summary: captions normalized to explicitly non-normative; IMM-P® labels aligned; placement verified under target headers.
+
+### BL-15F — Diagram Insertions: Chapter 04 (Governance)
+Status: DONE
+Evidence (Commit ID): eef4750
+Scope:
+- Insert a governance architecture diagram under section 4.6.
+- Keep diagram non-sequential and descriptive only.
+Acceptance Criteria:
+- Diagram does not imply decision flow or escalation logic.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram maps governance tiers as structural relationships only.
+
+### BL-15J — Diagram Insertions: Chapter 08 (Operating Model)
+Status: DONE
+Evidence (Commit ID): e0f94a7
+Scope:
+- Insert a non-sequential operating model diagram under section 8.3.
+- Keep diagram descriptive and non-normative.
+Acceptance Criteria:
+- Diagram does not imply sequencing, phases, or execution steps beyond the text.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram presents phases as a static structural overview without ordering.
+
+### BL-15M - Diagram Insertions: Chapter 11 (References & Alignment)
 Status: DONE
 Evidence (Commit ID): 6abb370
 Scope:
