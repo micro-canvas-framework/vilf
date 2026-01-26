@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15L — Diagram Insertions: Chapter 10 (Templates & Tools)
+Status: DONE
+Evidence (Commit ID): f7f9aeb
+Scope:
+- Insert template domains map under section 10.2.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 10.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram summarizes template domains as reference categories only.
+
 ### BL-15K — Diagram Insertions: Chapter 09 (Governance Architecture)
 Status: DONE
 Evidence (Commit ID): 33c3ae4
