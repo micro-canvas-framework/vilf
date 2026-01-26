@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15K — Diagram Insertions: Chapter 09 (Governance Architecture)
+Status: DONE
+Evidence (Commit ID): 33c3ae4
+Scope:
+- Insert governance tier map under section 9.2.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 09.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram summarizes governance tiers without implying decision flow.
+
 ### BL-15I — Diagram Insertions: Chapter 07 (KPI Domain Map)
 Status: DONE
 Evidence (Commit ID): 36c37c3
