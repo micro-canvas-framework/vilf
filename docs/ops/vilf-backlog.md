@@ -1389,6 +1389,18 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15B1 — Fix Mermaid rendering for Chapter 00 diagram
+Status: DONE
+Evidence (Commit ID): 2c56ef0
+Scope:
+- Ensure Mermaid rendering is enabled for the Chapter 00 diagram.
+- No semantic diagram changes.
+Acceptance Criteria:
+- Mermaid renders (not plain code).
+- npm run build passes.
+Notes:
+- Fix was required because Mermaid was not enabled; no semantic diagram changes.
+
 Status: TODO
 Scope:
 - Add explanatory, non-normative diagrams using Mermaid where they improve clarity.
