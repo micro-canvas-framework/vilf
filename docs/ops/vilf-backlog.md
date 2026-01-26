@@ -1243,7 +1243,8 @@ Notes:
 ---
 
 ### BL-14 — Editorial Pass (Framework → Book Quality)
-Status: TODO
+Status: DONE
+Evidence (Commit ID): f0fa53f
 Scope:
 - Improve readability and narrative flow across chapters without changing normative meaning.
 - Add explanatory bridges and reader orientation where helpful.
@@ -1254,6 +1255,7 @@ Acceptance Criteria:
 Notes:
 - Umbrella item. Execute via atomic tasks: BL-14A, BL-14B, BL-14C, BL-14D, BL-14E, BL-14F, BL-14G, BL-14H, BL-14I, BL-14J, BL-14K, BL-14L, BL-14M, BL-14N.
 - Preserve all normative rules; add explanatory bridges only.
+- Chapters 00–15 editorially refined; no diagrams added; no citations added; editorial-only scope respected.
 
 ## Phase 5A — Editorial Pass (Atomic Tasks, No Diagrams)
 
@@ -1384,4 +1386,3 @@ Scope:
 Acceptance Criteria:
 - Release notes clearly distinguish editorial vs normative vs future diagram/citation work
 - npm run build passes
-
