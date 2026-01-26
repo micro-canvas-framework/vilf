@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15D — Diagram Insertions: Chapter 02 (Diagnostic & Gating)
+Status: DONE
+Evidence (Commit ID): fbf5e9a
+Scope:
+- Insert diagnostic pillars diagram under section 2.2.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 02.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Diagram expresses pillar stack without scoring or thresholds.
+
 ### BL-15C — Diagram Insertions: Chapter 01 (Conceptual Frame)
 Status: DONE
 Evidence (Commit ID): 5887cf7
