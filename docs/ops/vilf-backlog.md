@@ -1386,3 +1386,29 @@ Scope:
 Acceptance Criteria:
 - Release notes clearly distinguish editorial vs normative vs future diagram/citation work
 - npm run build passes
+
+
+### BL-15 — Diagram & Visual Canon (Post-Editorial)
+Status: TODO
+Scope:
+- Add explanatory, non-normative diagrams using Mermaid where they improve clarity.
+- Diagrams must not introduce new concepts or implied sequencing.
+- All diagrams must follow docs/ops/diagram-standards.md.
+Acceptance Criteria:
+- Diagram plan executed per BL-15A.
+- Diagrams inserted only where they align with existing text.
+- npm run build passes.
+
+### BL-15A — Diagram Canon Prep: Inventory + Placement Plan
+Status: DONE
+Evidence (Commit ID): 83c437f
+Scope:
+- Create docs/ops/diagram-standards.md and docs/ops/diagram-plan.md.
+- Inventory diagram candidates across chapters 00–15.
+- No diagrams added in this step.
+Acceptance Criteria:
+- Plan and standards exist.
+- No chapter files modified.
+- npm run build passes.
+Notes:
+- Inventory and placement plan completed; diagram insertion deferred to BL-15.
