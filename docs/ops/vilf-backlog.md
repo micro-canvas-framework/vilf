@@ -1389,6 +1389,19 @@ Acceptance Criteria:
 
 
 ### BL-15 — Diagram & Visual Canon (Post-Editorial)
+### BL-15C — Diagram Insertions: Chapter 01 (Conceptual Frame)
+Status: DONE
+Evidence (Commit ID): 5887cf7
+Scope:
+- Add missing 1.3 Principles section (explanatory-only) and insert the principles diagram.
+- Keep diagram non-normative and aligned to existing text.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 01.
+- Mermaid renders as a diagram (not code).
+- npm run build passes.
+Notes:
+- Added the missing anchor section to align Chapter 01 with the plan; no new principles introduced.
+
 ### BL-15B2 — Remove 00a.2 and fix Mermaid rendering (Chapter 00)
 Status: DONE
 Evidence (Commit ID): 9a44e9a
