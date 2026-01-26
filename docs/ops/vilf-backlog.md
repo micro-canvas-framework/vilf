@@ -1399,6 +1399,17 @@ Acceptance Criteria:
 - Diagrams inserted only where they align with existing text.
 - npm run build passes.
 
+### BL-15B — Diagram Insertions: Chapter 00 (Orientation)
+Status: DONE
+Evidence (Commit ID): a9a8b8e
+Scope:
+- Insert the approved Tier architecture map after section 00a header.
+- Add Mermaid diagram with caption; explanatory only.
+Acceptance Criteria:
+- Diagram matches diagram-plan.md entry for Chapter 00.
+- No new concepts, rules, or sequencing introduced.
+- npm run build passes.
+
 ### BL-15A — Diagram Canon Prep: Inventory + Placement Plan
 Status: DONE
 Evidence (Commit ID): 83c437f
